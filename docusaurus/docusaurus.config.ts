@@ -3,20 +3,20 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'EasyThreads Docs',
+  tagline: 'Use Threads & forums at a higher level',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://docs.easythreads.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'easysystems', // Usually your GitHub org/user name.
+  projectName: 'easythreads-documentation', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,15 +37,15 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Easy-Systems/documentations/tree/main/packages/create-docusaurus/templates/shared/',
+          /* editUrl:
+            'https://github.com/Easy-Systems/documentations/tree/main/packages/create-docusaurus/templates/shared/', */
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Easy-Systems/documentations/tree/main/packages/create-docusaurus/templates/shared/',
+          /* editUrl:
+            'https://github.com/Easy-Systems/documentations/tree/main/packages/create-docusaurus/templates/shared/', */
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -56,12 +56,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/favicon.ico',
     navbar: {
-      title: 'EasyDocs',
+      title: 'EasyThreads Documentation',
       logo: {
-        alt: 'EasySystems Logo',
-        src: 'img/logo.svg',
+        alt: 'EasyThreads Logo',
+        src: 'img/favicon.ico',
       },
       items: [
         {
@@ -72,8 +72,8 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://discord.gg/3saMREh8KN',
+          label: 'Support Server',
           position: 'right',
         },
       ],
@@ -94,7 +94,7 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Support',
+              label: 'Support Server',
               href: 'https://easysystems.live/',
             },
           ],
@@ -113,7 +113,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} EasySystems. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} EasySystems`,
     },
     prism: {
       theme: prismThemes.github,
