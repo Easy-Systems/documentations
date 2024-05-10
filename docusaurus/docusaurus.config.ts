@@ -113,7 +113,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} EasySystems`,
+      copyright: `Copyright © ${new Date().getFullYear()} EasySystems. Made with ❤ (and React)`,
     },
     prism: {
       theme: prismThemes.github,
