@@ -1,8 +1,15 @@
 themelon:
   name: the.melon
   title: Developer, Manager at EasySystems
+  email: legal@easysystems.live
   url: https://github.com/themelone2
   image_url: https://cdn.discordapp.com/attachments/1206568987270316054/1238248815253786664/file.jpg?ex=663e9893&is=663d4713&hm=c5c966abdc84c8c7e5b24d4ad942e1f9affda6ef29cffaad0a2118da35f323f2&
+
+easythreads:
+  name: EasyThreads
+  title: I think you know me...
+  url: https://canary.discord.com/oauth2/authorize?client_id=992796487048233000
+  image_url: https://easythreads.xyz/assets/icons/easythreads_logo.ico
 
 spacedev:
   name: SpaceDev
