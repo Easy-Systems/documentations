@@ -58,7 +58,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/favicon.ico',
     navbar: {
-      title: 'EasyThreads Documentation',
+      title: 'EasyThreads',
       logo: {
         alt: 'EasyThreads Logo',
         src: 'img/favicon.ico',
@@ -68,7 +68,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Getting Started',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -85,14 +85,38 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Getting Started',
               to: '/docs/intro',
             },
+            {
+              label: 'Autothreading',
+              to: '/docs/autothreading',
+            },
+            {
+              label: 'Automations',
+              to: '/docs/automations',
+            },
+            {
+              label: 'Forum',
+              to: '/docs/forum',
+            },
+            {
+              label: 'Panels',
+              to: '/docs/panels',
+            }
           ],
         },
         {
-          title: 'Community',
+          title: 'Helpful Ressources',
           items: [
+            {
+              label: 'Dashboard',
+              href: 'https://easythreads.xyz/dashboard',
+            },
+            {
+              label: 'Bot Invite',
+              href: 'https://easythreads.xyz/invite',
+            },
             {
               label: 'Support Server',
               href: 'https://easysystems.live/',
@@ -107,11 +131,36 @@ const config: Config = {
               to: '/blog',
             },
             {
+              label: 'X / Twitter',
+              href: 'https://twitter.com/EasySystemsDev',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/Easy-Systems/',
             },
           ],
         },
+        {
+          title: 'Legal',
+          items: [
+            {
+              label: 'Privacy Policy',
+              to: '/legal/privacy-policy',
+            },
+            {
+              label: 'Terms of Service',
+              to: '/legal/terms-of-service',
+            },
+            {
+              label: 'Cookie Policy',
+              to: '/legal/cookie-policy',
+            },
+            {
+              label: 'Imprint',
+              to: '/legal/imprint',
+            },
+          ],
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} EasySystems. Made with ❤ (and React)`,
     },
