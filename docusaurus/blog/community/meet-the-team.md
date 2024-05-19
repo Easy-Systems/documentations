@@ -55,7 +55,6 @@ _They are engaged in assisting and moderating the customer experience, including
 
 _The tasks range from assisting in the support channels to protecting the server from bad actors._
 ### Goose
-### Brian
 
 ---
 
