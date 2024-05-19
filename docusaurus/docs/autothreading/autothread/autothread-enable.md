@@ -34,3 +34,16 @@ By using the **/autothread enable** command, you can automatically enable the au
 - **\{date}**: This will be replaced with the current date. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/general/timezone)** command.
 
 ## Examples
+### Introduction Channel:
+```bash
+/autothread enable channel:#introduction name:{user}`s introduction threadmessage:Hey {usermention},{newline}Your introduction seems pretty cool :) Maybe some of use share the same hobbies as you...
+```
+This will enable autothreading in the channel #introduction with the name "\{user}'s introduction".
+
+![Example: Introduction ThreadMessage](./img/examples/Introduction_Message.png)
+
+And will send this message in the created Thread:  
+Hey < The User will be pinged here >,  
+Your introduction seems pretty cool :) Maybe some of use share the same hobbies as you...".
+
+![Example: Introduction ThreadView](./img/examples/Introduction_Threadview.png)
