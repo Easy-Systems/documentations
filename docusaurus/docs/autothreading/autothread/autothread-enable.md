@@ -3,6 +3,12 @@ sidebar_position: 2
 ---
 
 # /autothread enable
+:::info
+This command is **limited to 10 active autothreading channels** due to limited ressources.
+
+If you want to increase limit you have to buy the **[Custom Branding](https://easythreads.xyz/premium)** Version of EasyThreads.
+:::
+
 **Default Permissions:** Administrator
 ## Description
 By using the **/autothread enable** command, you can automatically enable the automatic thread creation in a channel, this will then start a new thread for any new message in the set channel.
@@ -12,7 +18,7 @@ By using the **/autothread enable** command, you can automatically enable the au
 - **threadmessage**: The message you want to send in the created threads. *(optional)*
 - **delay**: The delay in seconds to wait before the thread is being created. Maximum delay is 10 seconds *(optional)*
 - **cooldown**: The chat cooldown in seconds in the created in threads *(optional)*
-- **ignorebots**: Whether to ignore messages by Bots *(optional)*
+- **ignorebots**: Whether to ignore messages by apps *(optional)*
 - **ignoreusers**: Whether to ignore messages by users  *(optional)*
 - **pin-threadmessage**: Whether to pin the threadmessage sent in the thread, if set *(optional)*
 - **lock-thread**: Whether to lock the thread right after creation. This will only allow moderators to send messages in the thread *(optional)*
@@ -29,7 +35,7 @@ By using the **/autothread enable** command, you can automatically enable the au
 - **\{usernickname}**: The nickname/display Name of the user triggeringthe autothreading
 - **\{usermention}**: This will mention the user triggeringthe autothreading
 - **\{guild}**: The name of the server
-- **\{newline}**: This will start a new line in messages sent by the Bot
+- **\{newline}**: This will start a new line in messages sent by the app
 - **\{time}**: This will be replaced with the current time. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/general/timezone)** command.
 - **\{date}**: This will be replaced with the current date. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/general/timezone)** command.
 
