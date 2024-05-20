@@ -15,7 +15,7 @@ Welcome to the first edition of Changelogs! In this new category on the EasyThre
 - **Better Performance**: 
     - We've made some changes to the backend to improve the overall performance of EasyThreads.
 - **New Command**: 
-    - We've added a new command to the bot, which allows you to create a ticket system with ticketpanels.
+    - We've added a new command to the app, which allows you to create a ticket system with ticketpanels.
 - **New Dashboard**:
     - We've updated the dashboard to make it more user-friendly and easier to navigate.
 
@@ -31,6 +31,6 @@ Welcome to the first edition of Changelogs! In this new category on the EasyThre
 
 
 
-If you think you found another bug, check out our [Support Server](https://discord.com/invite/3rgReesP5Q) and tell us what bugs are bothering you and our Team will be more than happy to check it out. :)
+If you think you found another bug, check out our [Support Server](https://discord.com/invite/3rgReesP5Q) and tell us what bugs are apphering you and our Team will be more than happy to check it out. :)
 
 **See you soon.**
