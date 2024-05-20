@@ -114,7 +114,7 @@ const config: Config = {
               href: 'https://easythreads.xyz/dashboard',
             },
             {
-              label: 'app Invite',
+              label: 'App Invite',
               href: 'https://easythreads.xyz/invite',
             },
             {
