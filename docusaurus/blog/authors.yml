@@ -4,6 +4,10 @@ themelon:
   email: legal@easysystems.live
   url: https://github.com/themelone2
 
+comet:
+  name: Comet
+  title: Manager at EasySystems
+
 easythreads:
   name: EasyThreads
   title: I think you know me...
@@ -12,12 +16,12 @@ easythreads:
 
 spacedev:
   name: SpaceDev
-  title: CEO, Developer at EasySystems
+  title: CEO, Sr. Developer at EasySystems
   url: https://github.com/TheSpaceDev
 
 felixprogram:
   name: Felixprogram
-  title: Co-Owner, Developer at EasySystems
+  title: Sr. Developer at EasySystems
 
 tim:
   name: Tim
@@ -25,10 +29,18 @@ tim:
 
 tay:
   name: Tay
-  title: Co-Owner, Developer at EasySystems
+  title: Developer at EasySystems
 
 goose:
   name: Goose
+  title: CX Support, Moderation at EasySystems
+
+zonum:
+  name: ZonuM
+  title: CX Support, Moderation at EasySystems
+
+sdriver1:
+  name: Sdriver1
   title: CX Support, Moderation at EasySystems
 
 einsturd:
