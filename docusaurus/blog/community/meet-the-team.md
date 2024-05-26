@@ -20,14 +20,24 @@ I'm super excited to introduce you to the team behind the scenes of **EasyThread
 <!-- truncate -->
 We are a small team of developers and designers who are passionate about creating the best experience for you. We are always working hard to bring you the best features and updates.
 
-## Core-Team
-_The core team consists of the lead developers and the executives and is responsible for the central development and management of the company._
+## Sr. Developement
+The Sr. Developement team consists of the lead developers and is responsible for the central development and management of the company._
 
-_The tasks range from leading the company to recruiting new staff._
+_The tasks range from leading the company to maintaining the core software._
 ### SpaceDev
 ### Tim
-### Tay
 ### Felixprogram
+
+## Developer
+_They are responsible for the development and maintenance of the company's software._
+
+_The tasks range from developing new features to fixing bugs._
+### Tay
+
+## Management
+_They are responsible for the management of the company and the coordination of the team._
+
+_The tasks range from managing the team to coordinating internal processes._
 ### Melon
 > Hey there,  
 > I'm melon _(he/him)_, located near Berlin (Germany 🇩🇪)  and **Developer & Manager** here at **EasySystems**. Also I'm passionate about creating the best experience for you and always working hard to bring you the best features and updates.  
@@ -46,7 +56,7 @@ Anything you would say to the community?
 >
 > Cya in chat (～￣▽￣)～
 
-
+### Comet
 
 ---
 
@@ -55,7 +65,8 @@ _They are engaged in assisting and moderating the customer experience, including
 
 _The tasks range from assisting in the support channels to protecting the server from bad actors._
 ### Goose
-
+### ZonuM
+### Sdriver1
 ---
 
 ## Branding
