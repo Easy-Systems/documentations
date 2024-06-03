@@ -1,0 +1,10 @@
+community:
+  label: 'Community'
+  permalink: '/community'
+  description: 'Behind the scenes, stories, highlights and much more - straight from the EasySystems team.'
+
+changelog:
+  label: 'Changelog'
+  permalink: '/changelogs'
+  description: 'Announcements, new features and general improvements of EasySystems'
+
