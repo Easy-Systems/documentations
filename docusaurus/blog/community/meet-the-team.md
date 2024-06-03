@@ -4,7 +4,7 @@ title: Behind the scenes - The Team (WiP)
 description: This is an introduction of the team behind EasyThreads
 authors:
   [themelon]
-tags: [Community]
+tags: [community]
 date: 05-09-2024
 ---
 
@@ -25,6 +25,18 @@ The Sr. Developement team consists of the lead developers and is responsible for
 
 _The tasks range from leading the company to maintaining the core software._
 ### SpaceDev
+> Hey everyone,
+> 
+> I am SpaceDev and I come from Bavaria, Germany.   
+Here at EasySystems I am the **CEO and Sr. Developer** and I have the aim to provide the best Apps possible on Discord!
+
+What are your main tasks as a lead developer at our company?  
+
+> As CEO and Sr. Developer my main tasks are besides the **Development of EasyThreads** also to keep and **maintain the infrastructure behind the bots**, for example the API > integrations and other software and systems.
+
+Anything you wan to tell the community?  
+
+> I want to say a **big thanks to the entire community**. When I first started this project I was never expecting it for becoming this big, therefore a huge thanks for making all this possible! You motivate me the most to do what I do.
 ### Tim
 ### Felixprogram
 
