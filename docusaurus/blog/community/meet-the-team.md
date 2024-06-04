@@ -7,6 +7,7 @@ authors:
 tags: [community]
 date: 05-09-2024
 ---
+![EasySystems V2 Server Banner](../../static/img/easysystems_v2_banner.png)
 Hey **@everyone**,
 
 I'm super excited to introduce you to the team behind the scenes of **EasyThreads** or better **[EasySystems](https://easystems.live)** the company behind EasyThreads. 
@@ -14,7 +15,7 @@ I'm super excited to introduce you to the team behind the scenes of **EasyThread
 We are a small team of developers and designers who are passionate about creating the best experience for you. We are always working hard to bring you the best features and updates.
 
 ## Sr. Developement
-The Sr. Developement team consists of the lead developers and is responsible for the central development and management of the company._
+_The Sr. Developement team consists of the lead developers and is responsible for the central development and management of the company._
 
 _The tasks range from leading the company to maintaining the core software._
 ### SpaceDev
