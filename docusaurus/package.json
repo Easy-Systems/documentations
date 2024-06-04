@@ -1,7 +1,9 @@
 {
-  "name": "docusaurus",
-  "version": "0.0.0",
+  "name": "@easy-systems/docs-easythreads",
+  "version": "0.0.1",
   "private": true,
+  "description": "Documentation for EasyThreads",
+  "author": "the.melon - EasySystems",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
