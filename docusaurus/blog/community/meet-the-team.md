@@ -7,6 +7,7 @@ authors:
 tags: [community]
 date: 05-09-2024
 ---
+---
 ![EasySystems V2 Server Banner](../../static/img/easysystems_v2_banner.png)
 Hey **@everyone**,
 
