@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "description": "Documentation for EasyThreads",
-  "author": "the.melon - EasySystems",
+  "author": "EasySystems - Documentation Team",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
