@@ -118,5 +118,5 @@ We have not yet received a response from this staff member. This may change at a
 :::info
 Please be aware that this article is updated on a regular basis.  
 
-Therefore, if a team member leaves EasySystem, their post here will be deleted without prior notification to the community due to privacy reasons.
+Therefore, if a team member leaves EasySystems, their post here will be deleted without prior notification to the community due to privacy reasons.
 :::
