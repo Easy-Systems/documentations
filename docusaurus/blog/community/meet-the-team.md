@@ -31,6 +31,9 @@ Here at EasySystems I am the **CEO and Sr. Developer** and I have the aim to pro
 #### Anything you want to tell the community?  
 
 > I want to say a **big thanks to the entire community**. When I first started this project I was never expecting it for becoming this big, therefore a huge thanks for making all this possible! You motivate me the most to do what I do.
+#### More Information
+> You can find more about me on my website: https://spacedev.easysystems.live/ 
+
 ### Tim
 We have not yet received a response from this staff member. This may change at a later date.
 ### Felixprogram
@@ -66,7 +69,14 @@ Currently, I'm playing __Valorant__ and __Minecraft__ almost every day. Sometime
 > Cya in chat (～￣▽￣)～
 
 ### Comet
-We have not yet received a response from this staff member. This may change at a later date.
+> Hello!
+> My name's Comet or Night! I am the **Community / Staff Manager here at EasySystems**. I'm 21 years old, currently residing in Lebanon where I'm studying to graduate with a Computer Science degree!
+
+#### Is there a book or a person who has particularly inspired you in your professional career?
+> My grandfather definitely. His work ethic has inspired me since day one in anything I do. Whether it's Discord work, IRL work, or university work. He has motivated me to work hard on what I love no matter what, and I'll make sure to live by these words until I retire.
+
+#### Anything you want to tell the community?
+> I want to thank you all for your continuous support. You've all helped us and motivated us to continue expanding on this project, and we've been the furthest we've ever been and it would've never happened without your support!
 
 ---
 
@@ -76,10 +86,15 @@ _They are engaged in assisting and moderating the customer experience, including
 _The tasks range from assisting in the support channels to protecting the server from bad actors._
 ### Goose
 We have not yet received a response from this staff member. This may change at a later date.
-### ZonuM
-We have not yet received a response from this staff member. This may change at a later date.
 ### Sdriver1
-We have not yet received a response from this staff member. This may change at a later date.
+> Hello reader,  
+> I am Driver (he/him). I am a 16 years old from United States. I am also a bot developer of my own bot and experienced moderator/owner.
+
+#### Role in EasySystems
+> My role is **Support Agent**. I help answer any questions you have regarding EasySystems Bots or other Discord related questions. I have vast knowledge of discord applications and client and ready to help when needed.
+#### What do you like to do in your free time to relax and recharge your batteries?
+> I like to play video games such as Minecraft, Valorant, and online idle games. I also like to work on my own code and help grow my knowledge on JavaScript and Java
+
 
 ---
 
