@@ -32,7 +32,7 @@ Here at EasySystems I am the **CEO and Sr. Developer** and I have the aim to pro
 
 > I want to say a **big thanks to the entire community**. When I first started this project I was never expecting it for becoming this big, therefore a huge thanks for making all this possible! You motivate me the most to do what I do.
 #### More Information
-> You can find more about me on my website: https://spacedev.easysystems.live/ 
+> You can find more about me on my website: [https://spacedev.easysystems.live/](https://spacedev.easysystems.live/)
 
 ### Tim
 We have not yet received a response from this staff member. This may change at a later date.
@@ -92,9 +92,12 @@ We have not yet received a response from this staff member. This may change at a
 
 #### Role in EasySystems
 > My role is **Support Agent**. I help answer any questions you have regarding EasySystems Bots or other Discord related questions. I have vast knowledge of discord applications and client and ready to help when needed.
+
 #### What do you like to do in your free time to relax and recharge your batteries?
 > I like to play video games such as Minecraft, Valorant, and online idle games. I also like to work on my own code and help grow my knowledge on JavaScript and Java
 
+#### More Information:
+> To see more about me or my social, click here: [https://sdriver1.carrd.co/](https://sdriver1.carrd.co/)
 
 ---
 
