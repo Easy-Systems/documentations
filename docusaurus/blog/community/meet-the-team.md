@@ -44,7 +44,16 @@ _They are responsible for the development and maintenance of the company's softw
 
 _The tasks range from developing new features to fixing bugs._
 ### Tay
-We have not yet received a response from this staff member. This may change at a later date.
+> Hey, i'm Tay, a German Non-Binary Developer.
+> I do stuff on the Internet and like to Develop Websites, ChatBots and AI's.
+> Here at EasySystems, i was one of the first **Developers in the Team**. 
+
+> Currently i **develop EasyLevels**, and one of the **AI Providers for EasyYAUDAB**. Before i worked on EasyYAUDAB and EasyEvents (formerly known as Eventy).
+> I always use the latest Discord.js as much as possible to have the newest and greatest Support for everything new.
+
+> Other than Developing i like to cook, meet with Friends, do Human Resources stuff in a different project, or build furniture for me.
+
+> So yeah, thats me. Cya around ;)
 
 ## Management
 _They are responsible for the management of the company and the coordination of the team._
@@ -85,7 +94,18 @@ _They are engaged in assisting and moderating the customer experience, including
 
 _The tasks range from assisting in the support channels to protecting the server from bad actors._
 ### Goose
-We have not yet received a response from this staff member. This may change at a later date.
+> Hello! I am Goose, a **Support Agent** @EasySystems! I am an Aussie who is interested in creative workspaces,
+
+#### What kind of queries and problems do you encounter most often in customer support?
+> The problems and queries I get the most normally are about how to set up the bot and use it to its full extent. Normally it is a walk in the park and I guide them through it, every problem is slightly different though.
+
+#### How do you deal with difficult or upset customers and make sure they are satisfied? 
+> The main difficulty I face it language barriers. People from all over the world use our bot and language barriers make it harder to have a conversation. We will try to understand the customer as best as we can and see how we can fix their issue. If a customer is unhappy with the bot overall then I would ask for feedback and assess how their needs could be met.
+
+#### What do you like to do in your free time to relax and recharge your batteries?
+> To relax and recharge I play flight simulators, spend time with my cat, or go recreational flying around the coast! I love flying and chilling with my cat so those are two things I can always do to recharge and relax! 
+
+
 ### Sdriver1
 > Hello reader,  
 > I am Driver (he/him). I am a 16 years old from United States. I am also a bot developer of my own bot and experienced moderator/owner.
@@ -129,8 +149,12 @@ We have not yet received a response from this staff member. This may change at a
 _They are responsible for creating and editing content for the company, including blog posts, social media posts, and other marketing materials._
 
 _The tasks range from writing blog posts to creating social media posts._
-### Zi
-We have not yet received a response from this staff member. This may change at a later date.
+### Zee
+> Hiya, I'm zee, or zippybonzo (use the terms interchangably).   
+> I'm a node.js and python developer who writes the documentation here. I'm learning swift at the moment when I have spare time.   
+> I **manage the documentation for EasyThreads** and keep it all up to date and running. I'm also a bit of a network nerd (I enjoy toying with UniFi equipment when I have time). 
+
+> Beyond that, not a whole lot else I can say. :)
 
 ---
 :::info
