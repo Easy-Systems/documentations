@@ -36,14 +36,12 @@ After putting in lots of work and hours in the calls, hours in code editors and 
 \<Text here\>
 
 
-<details>
-  <summary>What is the difference between a cold build and an incremental build?</summary>
+## What's coming next?
+Due to some internal reasons we decided to release some things after EasySystems V2...
+- **Web Support Panel for punishment appeals:**
+To improve the customer support experience we decided to create an own support panel for punishment appeals for any EasySystems services including and not limited to the Discord Support Server, app punishments.
 
-A cold build is when the Docusaurus caches are empty, generally after running `docusaurus clear`.
 
-An incremental build happens when you run another time the `docusaurus build` command. Docusaurus automatically tries to "re-use" computations from former builds to make subsequent builds faster. In practice it's based on [Webpack persistent caching](https://webpack.js.org/guides/build-performance/#persistent-cache). To enable incremental builds on your CI server, you can persist the `node_modules/.cache` folder across builds.
-
-</details>
 
 
 If you think you found another bug, check out our [Support Server](https://discord.com/invite/3rgReesP5Q) and tell us what bugs are apphering you and our Team will be more than happy to check it out. :)
