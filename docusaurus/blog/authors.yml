@@ -1,56 +1,65 @@
 themelon:
   name: the.melon
   title: Developer, Manager at EasySystems
-  email: legal@easysystems.live
-  url: https://github.com/themelone2
-
-comet:
-  name: Comet
-  title: Manager at EasySystems
+  description: 'Just a melon that codes.'
+  page: true
+  socials:
+    github: themelone2
+    website: https://ezsys.link/melon
+    email: mailto:legal@easysystems.live
 
 easythreads:
   name: EasyThreads
   title: I think you know me...
+  page: true
   url: https://canary.discord.com/oauth2/authorize?client_id=992796487048233000
-  image_url: https://easythreads.xyz/assets/icons/easythreads_logo.ico
+  image_url: http://localhost:3000/img/brand/easythreads_logo.png
+
+team:
+  name: EasySystems Team
+  title: The team behind EasySystems
+  description: 'A group of talented individuals working together to make EasySystems the best it can be'
+  image_url: http://localhost:3000/img/brand/easysystems_logo.png
+  page: true
 
 spacedev:
   name: SpaceDev
   title: CEO, Sr. Developer at EasySystems
-  url: https://github.com/TheSpaceDev
+  page: true
+  socials:
+    github: thespacedev
 
 felixprogram:
   name: Felixprogram
   title: Sr. Developer at EasySystems
+  page: true
 
 tim:
   name: Tim
-  title: Co-Owner, Developer at EasySystems
+  title: Co-Owner, Sr. Developer at EasySystems
+  page: true
 
 tay:
   name: Tay
   title: Developer at EasySystems
+  page: true
+
+zippybonzo:
+  name: Zippybonzo
+  title: Developer, Content Writer at EasySystems
+  page: true
 
 goose:
   name: Goose
   title: CX Support, Moderation at EasySystems
-
-zonum:
-  name: ZonuM
-  title: CX Support, Moderation at EasySystems
+  page: true
 
 sdriver1:
   name: Sdriver1
   title: CX Support, Moderation at EasySystems
+  page: true
 
 einsturd:
   name: Einsturd
   title: Branding Manager at EasySystems
-
-shini:
-  name: Shini
-  title: Branding Manager at EasySystems
-
-zi:
-  name: Zi
-  title: Content Writer at EasySystems
+  page: true
