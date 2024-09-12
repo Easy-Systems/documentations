@@ -10,7 +10,7 @@ The [Open Source Guides](https://opensource.guide/) website has a collection of 
 
 ## Code of Conduct
 
-EasySystems has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](https://github.com/Easy-Systems/documentations/tree/main?tab=coc-ov-file) so that you can understand what actions will and will not be tolerated.
+EasySystems has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](https://github.com/Easy-Systems/documentations/blob/main/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
 
 ## Get Involved
 
@@ -121,7 +121,7 @@ Please make sure the following is done when submitting a pull request:
 1. **Keep your PR small.** Small pull requests (~300 lines of diff) are much easier to review and more likely to get merged. Make sure the PR does only one thing, otherwise please split it.
 2. **Use descriptive titles.** It is recommended to follow this [commit message style](#semantic-commit-messages).
 3. **Test your changes.** Describe your [**test plan**](#test-plan) in your pull request description.
-4. **CLA.** If you haven't already, [sign the CLA](https://ezsys.link/cla).
+4. **CLA.** If you haven't already, [sign the CLA](https://ezsys.link/cla). Otherwise, we won't be able to merge your code.
 
 All pull requests should be opened against the `main` branch.
 
@@ -196,9 +196,9 @@ By contributing to EasySystems, you agree that your contributions will be licens
 
 ### Contributor License Agreement (CLA)
 
-In order to accept your pull request, we need you to submit a CLA. You only need to do this once, so if you've done this for another EasySystems open source project, you're good to go. If you are submitting a pull request for the first time, the EasySystems GitHub Bot will reply with a link to the CLA form. You may also [complete your CLA here](https://ezsys.link/cla).
+In order to accept your pull request, we need you to submit a CLA. You only need to do this once, so if you've done this for another EasySystems open source project, you're good to go. The link to [complete your CLA is here](https://ezsys.link/cla).
 
-After you have signed the CLA, the CLA bot would automatically update the PR status. There's no need to open a new PR.
+After you have signed the CLA, we are able to merge your PR. :)
 
 **CLAs are required for us to merge your pull request.** While we value your effort and are willing to wait for you to come back and address the reviews in case you are unavailable after sending the pull request, pull requests that are ready to merge but have CLA missing and no response from the author **will be closed within two weeks of opening**. If you have further questions about the CLA, please stay in touch with us.
 
