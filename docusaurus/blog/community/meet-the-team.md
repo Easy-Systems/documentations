@@ -39,7 +39,7 @@ We have not yet received a response from this staff member. This may change at a
 ### Felixprogram
 We have not yet received a response from this staff member. This may change at a later date.
 
-## Developer
+## Developement
 _They are responsible for the development and maintenance of the company's software._
 
 _The tasks range from developing new features to fixing bugs._
@@ -54,6 +54,13 @@ _The tasks range from developing new features to fixing bugs._
 > Other than Developing i like to cook, meet with Friends, do Human Resources stuff in a different project, or build furniture for me.
 
 > So yeah, thats me. Cya around ;)
+
+### Zee
+> Hiya, I'm zee, or zippybonzo (use the terms interchangably).   
+> I'm a node.js and python developer who writes the documentation here. I'm learning swift at the moment when I have spare time.   
+> I **manage the documentation for EasyThreads** and keep it all up to date and running. I'm also a bit of a network nerd (I enjoy toying with UniFi equipment when I have time). 
+
+> Beyond that, not a whole lot else I can say. :)
 
 ## Management
 _They are responsible for the management of the company and the coordination of the team._
@@ -76,18 +83,6 @@ Currently, I'm playing __Valorant__ and __Minecraft__ almost every day. Sometime
 > You can reach me over Discord (`the.melon`), on [GitHub](https://github.com/themelone2) or in case you need to contact our legal team over mail: [legal@easysystems.live](mailto:legal@easysystems.live).  
 >
 > Cya in chat (～￣▽￣)～
-
-### Comet
-> Hello!
-> My name's Comet or Night! I am the **Community / Staff Manager here at EasySystems**. I'm 21 years old, currently residing in Lebanon where I'm studying to graduate with a Computer Science degree!
-
-#### Is there a book or a person who has particularly inspired you in your professional career?
-> My grandfather definitely. His work ethic has inspired me since day one in anything I do. Whether it's Discord work, IRL work, or university work. He has motivated me to work hard on what I love no matter what, and I'll make sure to live by these words until I retire.
-
-#### Anything you want to tell the community?
-> I want to thank you all for your continuous support. You've all helped us and motivated us to continue expanding on this project, and we've been the furthest we've ever been and it would've never happened without your support!
-
----
 
 ## CX Support & Moderation
 _They are engaged in assisting and moderating the customer experience, including interacting with customers and ensuring a positive customer experience._
@@ -149,12 +144,8 @@ We have not yet received a response from this staff member. This may change at a
 _They are responsible for creating and editing content for the company, including blog posts, social media posts, and other marketing materials._
 
 _The tasks range from writing blog posts to creating social media posts._
-### Zee
-> Hiya, I'm zee, or zippybonzo (use the terms interchangably).   
-> I'm a node.js and python developer who writes the documentation here. I'm learning swift at the moment when I have spare time.   
-> I **manage the documentation for EasyThreads** and keep it all up to date and running. I'm also a bit of a network nerd (I enjoy toying with UniFi equipment when I have time). 
 
-> Beyond that, not a whole lot else I can say. :)
+**Funfact: Zee and melon are both in the content writing team aswell :)**
 
 ---
 :::info
