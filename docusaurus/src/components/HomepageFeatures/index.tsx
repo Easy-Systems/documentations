@@ -1,55 +1,71 @@
-import clsx from 'clsx';
+import clsx from 'clsx'; 
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  imgSrc: string;
   description: JSX.Element;
+  link: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'EasyThreads',
+    imgSrc: require('@site/static/img/brand/easythreads_logo.png').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        EasyThreads can be used for autothreading, moving of threads, ticket-systems and much more!
       </>
     ),
+    link: 'https://ezsys.link/threads'
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'EasyLevel',
+    imgSrc: require('@site/static/img/brand/easylevel_logo.png').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        With EasyLevel you can customize almost every aspect of your Leveling experience with ease.
       </>
     ),
+    link: 'https://ezsys.link/level'
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'EasyVoice',
+    imgSrc: require('@site/static/img/brand/easyvoice_logo.png').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        EasyVoice is the best app for temporary Voice Channels!
       </>
     ),
+    link: 'https://ezsys.link/voice'
+  },
+  {
+    title: 'EasyYAUDAB',
+    imgSrc: require('@site/static/img/brand/easyyaudab_logo.png').default,
+    description: (
+      <>
+        Hello! Chat with EasyYAUDAB by mentioning him and writing your message!
+      </>
+    ),
+    link: 'https://ezsys.link/yaudab'
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, imgSrc, description, link}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={imgSrc} className={styles.featureImage} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
+      </div>
+      <div className="text--center padding-horiz--md">
+        <a href={link} className="button button--secondary button--lg">
+          Add to Server
+        </a>
       </div>
     </div>
   );
