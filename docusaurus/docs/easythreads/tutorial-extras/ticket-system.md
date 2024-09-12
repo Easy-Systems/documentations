@@ -1,12 +1,13 @@
 ---
 sidebar_position: 1
+description: Make a cool ticket system with EasyThreads
 ---
 
 # Setting up a ticket system
 
 In this tutorial we will show you how to set up a ticket system with EasyThreads.
 ## Prerequisites
-- You need to have the [EasyThreads](https://easythreads.xyz/invite) or [EasyThreads Premium / Custom Branding](https://easythreads.xyz/premium) in your server with the proper permissions.
+- You need to have the [EasyThreads](https://ezsys.link/threads) or [EasyThreads Premium / Custom Branding](https://ezsys.link/premium) in your server with the proper permissions.
 - You have the `administrator` - permission in your server
 ## Step 1: Create a channel for the ticket system
 Create a new channel where the tickets will be created. In our example the channel is named: `ticket-support`.
@@ -56,7 +57,7 @@ In our case we ping the team role and our role id is: `1173692530081144842`
 
 One way to get a specific role id is by going into your server settings > roles and click on the three dots next to the role name or right clicking on the specific role and click on "Copy Role ID"
 
-![Copy RoleID in server settings](../../static/img/BestPractices/TicketSystem/copy_roleid.png)  
+![Copy RoleID in server settings](../../../static/img/BestPractices/TicketSystem/copy_roleid.png)  
 You can include your id by replacing "roleid" in `<@&roleid>` with your role id.
 
 ##### Panel Thread Name:
@@ -76,12 +77,12 @@ After you've set all the parameters, your command could look like this:
 ```
 /panel threads channel:#ticket-support embed-title:Ticket Support - Plant Friends :seedling: :potted_plant: embed-description:Heya my plant friends!!! {newline} If you need support from the plant team, just click on "Create Ticket" and you can get in touch with us. {newline} Stay hydrated :potted_plant::ocean: embed-footer:Did you know: The word "fruit" is a botanical term, while "vegetable" is a culinary term. :p button-text:Create Ticket button-color:Green private-thread:True thread-message:Welcome {usermention}, {newline} Tell us here about your problem! {newline} {newline} This will only shown to the team. You opened the ticket on the: {date}, {time} in {guild} {newline}  <@&roleid> thread-name:ticket-{user} button-emoji::potted_plant: embed-color:Green block-invites:True
 ```
-![Ticket System command prompt in Discord Text Channel](../../static/img/BestPractices/TicketSystem/command_prompt.png)
+![Ticket System command prompt in Discord Text Channel](../../../static/img/BestPractices/TicketSystem/command_prompt.png)
 
 Now you have to just hit "enter" to send the command!
 
 And EasyThreads will a ticket panel, in our case it looks like this:
-![Sample Plant Server Ticket Panel](../../static/img/BestPractices/TicketSystem/thread_panel.png)
+![Sample Plant Server Ticket Panel](../../../static/img/BestPractices/TicketSystem/thread_panel.png)
 
 ## Step 3: Test the ticket system
 After you've set up the ticket panel, you can test it by clicking on the button and creating a ticket.
@@ -91,7 +92,7 @@ You can also test the private thread by trying to view the thread as a non-moder
 If everything is set up correctly, you should not be able to view the thread as a non-moderator.
 
 For us it looks like this if an user creates a ticket:
-![Thread created after an user was pressing on "create ticket" on the Thread Panel](../../static/img/BestPractices/TicketSystem/thread_created.png)
+![Thread created after an user was pressing on "create ticket" on the Thread Panel](../../../static/img/BestPractices/TicketSystem/thread_created.png)
 
 **🎉 Congratulations! You've successfully set up a ticket system with EasyThreads. (*^_^*)**
 

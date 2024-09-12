@@ -3,12 +3,12 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'EasyThreads Docs',
-  tagline: 'Use Threads & forums at a higher level',
+  title: 'EasySystems Documentation',
+  tagline: 'Discord Apps made with love.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.easythreads.xyz',
+  url: 'https://docs.easysystems.live',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -53,9 +53,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/favicon.ico',
     navbar: {
-      title: 'EasyThreads',
+      title: 'EasySystems',
       logo: {
-        alt: 'EasyThreads Logo',
+        alt: 'EasySystems Logo',
         src: 'img/favicon.ico',
       },
       items: [
@@ -66,6 +66,11 @@ const config: Config = {
           label: 'Getting Started',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: '/docs/opensource',
+          label: 'Contribute',
+          position: 'left',
+        },
         {
           href: 'https://discord.gg/3saMREh8KN',
           label: 'Support Server',
@@ -84,20 +89,12 @@ const config: Config = {
               to: '/docs/intro',
             },
             {
-              label: 'Autothreading',
-              to: '/docs/autothreading',
+              label: 'EasyThreads Documentation',
+              to: '/docs/easythreads/intro',
             },
             {
-              label: 'Automations',
-              to: '/docs/automations',
-            },
-            {
-              label: 'Forum',
-              to: '/docs/forum',
-            },
-            {
-              label: 'Panels',
-              to: '/docs/panels',
+              label: 'Become a Contributor',
+              to: '/docs/opensource',
             }
           ],
         },
@@ -106,15 +103,15 @@ const config: Config = {
           items: [
             {
               label: 'Dashboard',
-              href: 'https://easythreads.xyz/dashboard',
+              href: 'https://easythreads.easysystems.live/dashboard',
             },
             {
               label: 'App Invite',
-              href: 'https://easythreads.xyz/invite',
+              href: 'https://ezsys.link/threads',
             },
             {
               label: 'Support Server',
-              href: 'https://easysystems.live/',
+              href: 'https://ezsys.link/support',
             },
           ],
         },
@@ -126,7 +123,7 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'X / Twitter',
+              label: '𝕏 / Twitter',
               href: 'https://twitter.com/EasySystemsDev',
             },
             {
@@ -139,20 +136,20 @@ const config: Config = {
           title: 'Legal',
           items: [
             {
+              label: 'Legal Center',
+              href: 'https://easysystems.live/legal',
+            },
+            {
               label: 'Privacy Policy',
-              to: '/legal/privacy-policy',
+              href: 'https://easysystems.live/privacy',
             },
             {
-              label: 'Terms of Service',
-              to: '/legal/terms-of-service',
-            },
-            {
-              label: 'Cookie Policy',
-              to: '/legal/cookie-policy',
+              label: 'Payment ToS',
+              href: 'https://easysystems.live/billingtos',
             },
             {
               label: 'Imprint',
-              to: '/legal/imprint',
+              href: 'https://easysystems.live/imprint',
             },
           ],
         }

@@ -15,5 +15,5 @@ By using the **/help** command you will receive an interactive help menu showing
 - **\{usermention}**: This will mention the user triggeringthe autothreading
 - **\{guild}**: The name of the server
 - **\{newline}**: This will start a new line in messages sent by the app
-- **\{time}**: This will be replaced with the current time. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/general/timezone)** command.
-- **\{date}**: This will be replaced with the current date. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/general/timezone)** command.
+- **\{time}**: This will be replaced with the current time. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/docs/easythreads/general/timezone)** command.
+- **\{date}**: This will be replaced with the current date. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/docs/easythreads/general/timezone)** command.

@@ -3,10 +3,10 @@ sidebar_position: 2
 ---
 
 # /autothread enable
-:::info
+:::info[Premium Limited]
 This command is **limited to 10 active autothreading channels** due to limited ressources.
 
-If you want to increase limit you have to buy the **[Custom Branding](https://easythreads.xyz/premium)** Version of EasyThreads.
+If you want to increase limit you have to buy the **[Custom Branding](https://ezsys.link/premium)** Version of EasyThreads.
 :::
 
 **Default Permissions:** Administrator
@@ -36,8 +36,8 @@ By using the **/autothread enable** command, you can automatically enable the au
 - **\{usermention}**: This will mention the user triggeringthe autothreading
 - **\{guild}**: The name of the server
 - **\{newline}**: This will start a new line in messages sent by the app
-- **\{time}**: This will be replaced with the current time. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/general/timezone)** command.
-- **\{date}**: This will be replaced with the current date. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/general/timezone)** command.
+- **\{time}**: This will be replaced with the current time. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/docs/easythreads/general/timezone)** command.
+- **\{date}**: This will be replaced with the current date. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/docs/easythreads/general/timezone)** command.
 
 ## Examples
 ### Introduction Channel:

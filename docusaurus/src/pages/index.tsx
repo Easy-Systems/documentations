@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            EasyThreads Starter Guide - 5min ⏱️
+            Which app do you want to setup? - 5 min ⏱️
           </Link>
         </div>
       </div>
@@ -31,12 +31,13 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <Layout>
       <HomepageHeader />
       <main>
+        <br />
+        <Heading as="h1" className="text--center">These apps are part of EasySystems:</Heading>
         <HomepageFeatures />
+        <br />
       </main>
     </Layout>
   );
