@@ -7,8 +7,8 @@ sidebar_position: 4
 ## Description
 By using the **/autothread listchannels** command, you can view all the channels that have currently autothreading enabled.
 
-If you desire to **enable autothreading** at a specific channel, one can do so by using the command **[/autothread enable](/docs/autothreading/autothread/autothread-enable)**.  
-Conversely, if you desire to **disable autothreading** at a specific channel, one can do so by using the command **[/autothread disable](/docs/autothreading/autothread/autothread-disable)**.
+If you desire to **enable autothreading** at a specific channel, one can do so by using the command **[/autothread enable](/docs/easythreads/autothreading/autothread/autothread-enable)**.  
+Conversely, if you desire to **disable autothreading** at a specific channel, one can do so by using the command **[/autothread disable](/docs/easythreads/autothreading/autothread/autothread-disable)**.
 ## Examples
 **Server with autothreading channels**
 ```bash

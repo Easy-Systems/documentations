@@ -5,7 +5,7 @@ sidebar_position: 2
 # /create thread
 **Default Permissions:** Administrator
 ## Description
-By using the **/create thread** command you can manually create a thread in any channel the Bot has access to by using the Bot. You can also edit the created thread afterwards by using the **[/edit](/docs/general/edit/edit-thread)** thread command!
+By using the **/create thread** command you can manually create a thread in any channel the Bot has access to by using the Bot. You can also edit the created thread afterwards by using the **[/edit](/docs/easythreads/general/edit/edit-thread)** thread command!
 ## Options
 - **channel**: The channel where you want to create the thread in. *(required)*
 - **thread-name**: The name for the thread your are creating. *(required)*
@@ -24,7 +24,7 @@ By using the **/create thread** command you can manually create a thread in any 
 - **\{usermention}**: This will mention the user triggeringthe autothreading
 - **\{guild}**: The name of the server
 - **\{newline}**: This will start a new line in messages sent by the app
-- **\{time}**: This will be replaced with the current time. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/general/timezone)** command.
-- **\{date}**: This will be replaced with the current date. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/general/timezone)** command.
+- **\{time}**: This will be replaced with the current time. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/docs/easythreads/general/timezone)** command.
+- **\{date}**: This will be replaced with the current date. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/docs/easythreads/general/timezone)** command.
 
 ## Examples

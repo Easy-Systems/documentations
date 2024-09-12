@@ -5,7 +5,7 @@ sidebar_position: 1
 # /create post
 **Default Permissions:** Administrator
 ## Description
-By using the **/create post** command you can manually create a post in any forum channel the app has access to by using the app. You can also edit the created post afterwards by using the **[/edit post](/docs/general/edit/edit-post)** command!
+By using the **/create post** command you can manually create a post in any forum channel the app has access to by using the app. You can also edit the created post afterwards by using the **[/edit post](/docs/easythreads/general/edit/edit-post)** command!
 ## Options
 - **channel**: The (forum) channel where you want to create the post in. *(required)*
 - **post-name**: The name for the post your are creating. *(required)*
@@ -24,7 +24,7 @@ By using the **/create post** command you can manually create a post in any foru
 - **\{usermention}**: This will mention the user triggeringthe autothreading
 - **\{guild}**: The name of the server
 - **\{newline}**: This will start a new line in messages sent by the app
-- **\{time}**: This will be replaced with the current time. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/general/timezone)** command.
-- **\{date}**: This will be replaced with the current date. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/general/timezone)** command.
+- **\{time}**: This will be replaced with the current time. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/docs/easythreads/general/timezone)** command.
+- **\{date}**: This will be replaced with the current date. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/docs/easythreads/general/timezone)** command.
 
 ## Examples
