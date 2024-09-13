@@ -13,13 +13,13 @@ easythreads:
   title: I think you know me...
   page: true
   url: https://canary.discord.com/oauth2/authorize?client_id=992796487048233000
-  image_url: http://localhost:3000/img/brand/easythreads_logo.png
+  image_url: https://docs.easysystems.live/img/brand/easythreads_logo.png
 
 team:
   name: EasySystems Team
   title: The team behind EasySystems
   description: 'A group of talented individuals working together to make EasySystems the best it can be'
-  image_url: http://localhost:3000/img/brand/easysystems_logo.png
+  image_url: https://docs.easysystems.live/img/brand/easysystems_logo.png
   page: true
 
 spacedev:
