@@ -31,7 +31,7 @@ body:
       label: Prerequisites
       description: Please check the following items before creating a issue. This way we know you've done these steps first.
       options:
-        - label: I'm using the latest version of Docusaurus.
+        - label: I'm using the latest version of the EasySystems Documentation.
           required: true
         - label: I have tried to clear caches.
         - label: I have read the console error message carefully (if applicable).
