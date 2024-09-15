@@ -12,6 +12,7 @@ tags: [changelog]
 This is what the EasySystems management group said earlier this year...  
 After putting in lots of work and hours in the calls, hours in code editors and debugging, searching for solutions, thinking about possible UX pain points:
 ### We are excited to announce *nothinnnnnng*!
+<!-- truncate -->
 
 **So let's get setup..**
 
