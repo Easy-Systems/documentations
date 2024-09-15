@@ -31,8 +31,6 @@ Here at EasySystems I am the **CEO and Sr. Developer** and I have the aim to pro
 #### Anything you want to tell the community?  
 
 > I want to say a **big thanks to the entire community**. When I first started this project I was never expecting it for becoming this big, therefore a huge thanks for making all this possible! You motivate me the most to do what I do.
-#### More Information
-> You can find more about me on my website: [https://spacedev.easysystems.live/](https://spacedev.easysystems.live/)
 
 ### Tim
 We have not yet received a response from this staff member. This may change at a later date.
