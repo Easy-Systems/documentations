@@ -7,6 +7,9 @@ title: Getting started
 ## What you can find here:
 You can find here the current documentations of all of our apps (formerly known as \"Bots\"). As well as our blog!
 - [EasyThreads Documentation](./easythreads/intro)
+- [EasyLevel Documentation](./easylevel/intro)
+- [EasyVoice Documentation](./easyvoice/intro)
+- [EasyYAUDAB Documentation](./easyyaudab/intro)
 - [EasySystems Blog](./blog)
 
 ## What is EasySystems?
@@ -20,7 +23,10 @@ Yes, you can! We are always looking for new contributors to help us improve our 
 
 ## Useful Links:
 - [Support Server](https://discord.gg/3rgReesP5Q)
-- [EasyThreads App Invite](https://discord.com/api/oauth2/authorize?client_id=992796487048233000&permissions=395137256448&scope=applications.commands%20bot)
+- [EasyThreads App Invite](https://ezsys.link/threads)
+- [EasyLevel App Invite](https://ezsys.link/level)
+- [EasyVoice App Invite](https://ezsys.link/voice)
+- [EasyYAUDAB App Invite](https://ezsys.link/yaudab)
 - [GitHub](https://github.com/easy-systems/)
 
 ## Contact Us:
