@@ -133,9 +133,6 @@ _The tasks range from creating logos to designing the websites._
 #### Anything you want to tell the community?
 > As opportunity comes, I continue to keep on visualizing and conceptualizing more and more to strengthen the visuals and branding of EasySystems.  
 You can contact me at **@einsturd** on Discord, [Instagram](https://instagram.com/einsturd), [X](https://x.com/einsturd), [Threads](https://www.threads.net/@einsturd), and [Bluesky](https://bsky.app/profile/einsturd.bsky.social). As well as support me at [ko-fi.com/einsturd](https://ko-fi.com/einsturd)
-### Shini
-We have not yet received a response from this staff member. This may change at a later date.
-
 ---
 
 ## Content Writing
