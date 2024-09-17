@@ -10,7 +10,7 @@ You can find here the current documentations of all of our apps (formerly known 
 - [EasyLevel Documentation](./easylevel/intro)
 - [EasyVoice Documentation](./easyvoice/intro)
 - [EasyYAUDAB Documentation](./easyyaudab/intro)
-- [EasySystems Blog](./blog)
+- [EasySystems Blog](../../blog)
 
 ## What is EasySystems?
 EasySystems is a company that provides you with many tools by using threads and forum posts.
