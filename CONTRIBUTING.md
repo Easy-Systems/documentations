@@ -96,9 +96,13 @@ You can try using the new [github.dev](https://github.dev/Easy-Systems/documenta
 
 ### Installation
 
-1. Ensure you have [Yarn](https://yarnpkg.com/) installed.
-2. After cloning the repository, run `yarn install` in the root of the repository. This will install all dependencies as well as build all local packages.
-3. To start a development server, run `yarn workspace website start`.
+1. Install Node.js (version 18.0 or above required)
+- You can Download an prebuilt installer for [Node.js](https://nodejs.org/en/download/prebuilt-installer)
+- When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+2. Ensure you have [Yarn](https://yarnpkg.com/) installed.
+3. Download the repository (Download ZIP) or clone the repository with [GitHub Desktop](https://github.com/apps/desktop)
+3. After downloading/cloning the repository, run(CMD) `yarn set version stable` and `yarn install` in the root of the repository(path_to\docusaurus). This will install all dependencies as well as build all local packages.
+4. To start a development server, run(CMD) `yarn run start`.
 
 ### Code Conventions
 
