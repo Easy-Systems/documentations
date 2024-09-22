@@ -10,6 +10,5 @@ Create media-only channels with autothreading, ticket systems with ticket panels
 Try it out.
 
 ## Useful Links:
-- [Dashboard](https://easythreads.easysystems.live/dashboard)
 - [Support Server](https://discord.gg/3rgReesP5Q)
 - [App Invite](https://discord.com/api/oauth2/authorize?client_id=992796487048233000&permissions=395137256448&scope=applications.commands%20bot)
