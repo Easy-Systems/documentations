@@ -101,8 +101,9 @@ You can try using the new [github.dev](https://github.dev/Easy-Systems/documenta
 - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 2. Ensure you have [Yarn](https://yarnpkg.com/) installed.
 3. Download the repository (Download ZIP) or clone the repository with [GitHub Desktop](https://github.com/apps/desktop)
-3. After downloading/cloning the repository, run(CMD) `yarn set version stable` and `yarn install` in the root of the repository(path_to\docusaurus). This will install all dependencies as well as build all local packages.
-4. To start a development server, run(CMD) `yarn run start`.
+4. After downloading/cloning the repository, run* `yarn set version stable` and `yarn install` in the root of the repository. This will install all dependencies as well as build all local packages.
+5. To start a development server, run* `yarn run start`.
+- run* the command inside of the CMD console or via a .batch(call) inside (path_to\docusaurus) folder.
 
 ### Code Conventions
 
