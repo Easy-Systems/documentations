@@ -6,6 +6,7 @@
 
 # Generated files
 .docusaurus
+.yarn
 .cache-loader
 
 # Misc
@@ -18,3 +19,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#yarn install
+.pnp.cjs
+.pnp.loader.mjs
+yarn.lock
+package.json
+
+#simple installer
+StartLocalWebsite.bat
