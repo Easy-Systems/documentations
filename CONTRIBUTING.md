@@ -102,7 +102,7 @@ You can try using the new [github.dev](https://github.dev/Easy-Systems/documenta
 
 2. Ensure you have [Yarn](https://yarnpkg.com/) installed.
 <!-- Yarn installation need to be added ?! -->
-3. Download the repository (Download ZIP) or clone the repository with [GitHub Desktop](https://github.com/apps/desktop)
+3. Download the repository [Download ZIP](https://docs.easysystems.live/docs/opensource#step-12-optional-clone-the-repository) or clone the repository with [GitHub Desktop](https://github.com/apps/desktop)
      - After downloading/cloning the repository, run* `yarn set version stable` and `yarn install` in the root* of the repository. This will install all dependencies as well as build all local packages.
 
 5. To start a development server, run* `yarn run start`.
