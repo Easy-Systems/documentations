@@ -120,7 +120,7 @@ You can try using the new [github.dev](https://github.dev/Easy-Systems/documenta
 >[core]
 >	excludesfile = C:/Users/User_Name/.gitignore_global
 >```
-> Also there is a file thats can´t be added to the list,this file need to be hidn with this run command 
+> Also there is a file thats can´t be added to the list,this file need to be hidden with this run command 
 >```
 >git update-index --assume-unchanged docusaurus/package.json
 >```
