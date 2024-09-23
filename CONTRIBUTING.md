@@ -96,18 +96,20 @@ You can try using the new [github.dev](https://github.dev/Easy-Systems/documenta
 
 ### Installation
 
-1. Install Node.js (version 18.0 or above required)
-    - You can Download an prebuilt installer for [Node.js](https://nodejs.org/en/download/prebuilt-installer)
-        - <sub>When installing Node.js, you are recommended to check all checkboxes related to dependencies.</sub>
+1. Install [Node.js](https://nodejs.org/en) (version 18.0 or above required)
+    - [Package Manager](https://nodejs.org/en/download/package-manager) for Windows, macOS and Linux
+    - [Prebuilt Installer](https://nodejs.org/en/download/prebuilt-installer) for Windows and macOS[^1]
+    - [Prebuilt Binaries](https://nodejs.org/en/download/prebuilt-binaries) for Windows, macOS, Linux and AIX
+    - [Source Code](https://nodejs.org/en/download/source-code) for Windows, macOS, Linux and AIX
+        - [^1]: When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
 2. Ensure you have [Yarn](https://yarnpkg.com/) installed.
 <!-- Yarn installation need to be added ?! -->
 3. Download the repository [Download ZIP](https://docs.easysystems.live/docs/opensource#step-12-optional-clone-the-repository) or clone the repository with [GitHub Desktop](https://github.com/apps/desktop)
-     - After downloading/cloning the repository, run* `yarn set version stable` and `yarn install` in the root* of the repository. This will install all dependencies as well as build all local packages.
+     - After downloading/cloning the repository, run `yarn install` in the root(path_to\docusaurus) of the repository. This will install all dependencies as well as build all local packages.
 
-5. To start a development server, run* `yarn run start`.
-    - run* the command inside of the CMD console or via a .batch(call)
-         - <sub>root* of the repository = (path_to\docusaurus) folder.</sub>
+4. To start a development server, run `yarn run start`
+
 ### Code Conventions
 
 - **Most important: Look around.** Match the style you see used in the rest of the project. This includes formatting, naming files, naming things in code, naming things in documentation, etc.
