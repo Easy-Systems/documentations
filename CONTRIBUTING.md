@@ -120,8 +120,8 @@ You can try using the new [github.dev](https://github.dev/Easy-Systems/documenta
 >[core]
 >	excludesfile = C:/Users/warsh/.gitignore_global
 >```
-> Also ther is a file thats cant be added to the list, this file need to be hidn with this run command 
-> `git update-index --assume-unchanged docusaurus/package.json`
+> Also ther is a file thats can´t be added to the list,
+> this file need to be hidn with this run command `git update-index --assume-unchanged docusaurus/package.json`
 
 ### Code Conventions
 
