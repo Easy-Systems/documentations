@@ -96,9 +96,22 @@ You can try using the new [github.dev](https://github.dev/Easy-Systems/documenta
 
 ### Installation
 
-1. Ensure you have [Yarn](https://yarnpkg.com/) installed.
-2. After cloning the repository, run `yarn install` in the root of the repository. This will install all dependencies as well as build all local packages.
-3. To start a development server, run `yarn workspace website start`.
+1. Install [Node.js](https://nodejs.org/en) (version 18.0 or above required)
+	- [Package Manager](https://nodejs.org/en/download/package-manager) for Windows, macOS and Linux
+	- [Prebuilt Installer](https://nodejs.org/en/download/prebuilt-installer) [^1] for Windows and macOS
+	- [Prebuilt Binaries](https://nodejs.org/en/download/prebuilt-binaries) for Windows, macOS, Linux and AIX
+	- [Source Code](https://nodejs.org/en/download/source-code) for Windows, macOS, Linux and AIX
+[^1]: When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+
+2. Enable [Yarn](https://yarnpkg.com/)
+	- It should be simple run `corepack enable` but in some cases you need to run `npm install -g corepack` as an administrator first.
+	
+3. Download the repository [Download ZIP](https://docs.easysystems.live/docs/opensource#step-12-optional-clone-the-repository) or clone the repository with [GitHub Desktop](https://github.com/apps/desktop)
+
+4. After downloading/cloning the repository, run `yarn install` in the root(path_to\docusaurus) of the repository. 
+	- This will install all dependencies as well as build all local packages.
+
+4. To start a development server, run `yarn run start`
 
 ### Code Conventions
 
