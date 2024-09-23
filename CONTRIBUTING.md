@@ -111,7 +111,19 @@ You can try using the new [github.dev](https://github.dev/Easy-Systems/documenta
 4. After downloading/cloning the repository, run `yarn install` in the root(path_to\docusaurus) of the repository. 
 	- This will install all dependencies as well as build all local packages.
 
-4. To start a development server, run `yarn run start`
+5. To start a development server, run `yarn run start`
+
+> [!TIP]
+> After installing Yarn, you will have a lot of changed files. To hold the repository clean without commits it is recommended to add them to the global excludefiles list.
+> Inside the .gitconfig you need to add the path to the global .gitignore
+>```
+>[core]
+>	excludesfile = C:/Users/User_Name/.gitignore_global
+>```
+> Also there is a file thats can´t be added to the list,this file need to be hidden with this run command 
+>```
+>git update-index --assume-unchanged docusaurus/package.json
+>```
 
 ### Code Conventions
 
