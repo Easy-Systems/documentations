@@ -98,10 +98,10 @@ You can try using the new [github.dev](https://github.dev/Easy-Systems/documenta
 
 1. Install [Node.js](https://nodejs.org/en) (version 18.0 or above required)
     - [Package Manager](https://nodejs.org/en/download/package-manager) for Windows, macOS and Linux
-    - [Prebuilt Installer](https://nodejs.org/en/download/prebuilt-installer) for Windows and macOS[^1]
+    - [Prebuilt Installer](https://nodejs.org/en/download/prebuilt-installer)[^1] for Windows and macOS
     - [Prebuilt Binaries](https://nodejs.org/en/download/prebuilt-binaries) for Windows, macOS, Linux and AIX
     - [Source Code](https://nodejs.org/en/download/source-code) for Windows, macOS, Linux and AIX
-        - [^1]: When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+[^1]: When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
 2. Ensure you have [Yarn](https://yarnpkg.com/) installed.
 <!-- Yarn installation need to be added ?! -->
