@@ -118,9 +118,9 @@ You can try using the new [github.dev](https://github.dev/Easy-Systems/documenta
 > Inside the .gitconfig you need to add the path to the global .gitignore
 >```
 >[core]
->	excludesfile = C:/Users/warsh/.gitignore_global
+>	excludesfile = C:/Users/User_Name/.gitignore_global
 >```
-> Also ther is a file thats can´t be added to the list,this file need to be hidn with this run command 
+> Also there is a file thats can´t be added to the list,this file need to be hidn with this run command 
 >```
 >git update-index --assume-unchanged docusaurus/package.json
 >```
