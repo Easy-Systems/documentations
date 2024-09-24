@@ -11,4 +11,5 @@ Try it out.
 
 ## Useful Links:
 - [Support Server](https://discord.gg/3rgReesP5Q)
-- [App Invite](https://discord.com/api/oauth2/authorize?client_id=992796487048233000&permissions=395137256448&scope=applications.commands%20bot)
+- [App Invite](https://ezsys.link/threads)
+- [Custom Branding (Premium)](https://ezsys.link/premium)
