@@ -18,7 +18,7 @@ Follow the tutorial below for a basic setup and / or learn more about how to use
 
 ## Getting started
 This is a tutorial for a basic setup of EasyYAUDAB in a channel
-1. [Invite](https://discord.com/oauth2/authorize?client_id=1094278296767840307&permissions=274878262336&scope=applications.commands%20bot) EasyYAUDAB
+1. [Invite](https://ezsys.link/yaudab) EasyYAUDAB
 2. Make sure the prerequisites are met
 	- The bot has the neccessary permissions, namely
 		- Read Message History
