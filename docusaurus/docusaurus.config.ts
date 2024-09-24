@@ -106,8 +106,8 @@ const config: Config = {
               href: 'https://easythreads.easysystems.live/dashboard',
             },
             {
-              label: 'App Invite',
-              href: 'https://ezsys.link/threads',
+              label: 'App Invites',
+              href: 'https://docs.easysystems.live/docs/intro#app-invites',
             },
             {
               label: 'Support Server',
