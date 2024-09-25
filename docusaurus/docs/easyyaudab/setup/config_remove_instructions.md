@@ -6,10 +6,12 @@ sidebar_position: 4
 
 **Required User Permissions:** Administrator
 
-:::info
-This requirement can be overridden by using the integrations tab in your server settings.<br/>
-**NOTE:** Overriding the permissions for this command allows access to all /config commands
-:::
+::::info
+	This requirement can be overridden by using the integrations tab in your server settings.<br/>
+	:::warning
+		Overriding the permissions for this command allows access to all /config commands
+	:::
+::::
 
 ## Description
 The **/config remove-instructions** command allows you to remove a custom system prompt from a channel.

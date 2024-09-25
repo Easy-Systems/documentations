@@ -7,8 +7,10 @@ sidebar_position: 2
 **Required User Permissions:** Administrator
 
 :::info
-This requirement can be overridden by using the integrations tab in your server settings.<br/>
-**NOTE:** Overriding the permissions for this command allows access to all /config commands
+	This requirement can be overridden by using the integrations tab in your server settings.<br/>
+	:::warning
+		Overriding the permissions for this command allows access to all /config commands
+	:::
 :::
 
 ## Description

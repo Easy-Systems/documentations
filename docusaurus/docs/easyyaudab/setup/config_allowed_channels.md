@@ -8,7 +8,9 @@ sidebar_position: 1
 
 :::info
 This requirement can be overridden by using the integrations tab in your server settings.<br/>
-**NOTE:** Overriding the permissions for this command allows access to all /config commands
+	:::warning
+		Overriding the permissions for this command allows access to all /config commands
+	:::
 :::
 
 ## Description
