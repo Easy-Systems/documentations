@@ -10,7 +10,6 @@ sidebar_position: 1
 This requirement can be overridden by using the integrations tab in your server settings.<br/>
 	:::warning
 		Overriding the permissions for this command allows access to all /config commands
-	:::
 :::
 
 ## Description
