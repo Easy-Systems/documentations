@@ -33,6 +33,7 @@ Yes, you can! We are always looking for new contributors to help us improve our 
 - [EasyYAUDAB App top.gg Vote](https://top.gg/bot/1094278296767840307/vote)
 
 ## Useful Links:
+- [Website](https://ezsys.link/web)
 - [Custom Branding (Premium)](https://ezsys.link/premium)
 - [GitHub](https://github.com/easy-systems/)
 
