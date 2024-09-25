@@ -26,10 +26,16 @@ Yes, you can! We are always looking for new contributors to help us improve our 
 - [EasyVoice App Invite](https://ezsys.link/voice)
 - [EasyYAUDAB App Invite](https://ezsys.link/yaudab)
 
+## App Votes:
+- [EasyThreads App top.gg Vote](https://top.gg/bot/992796487048233000/vote)
+- [EasyLevel App top.gg Vote](https://top.gg/bot/1091363443828867223/vote)
+- [EasyVoice App top.gg Vote](https://top.gg/bot/1061669666868695152/vote)
+- [EasyYAUDAB App top.gg Vote](https://top.gg/bot/1094278296767840307/vote)
+
 ## Useful Links:
-- [Support Server](https://discord.gg/3rgReesP5Q)
+- [Custom Branding (Premium)](https://ezsys.link/premium)
 - [GitHub](https://github.com/easy-systems/)
 
 ## Contact Us:
-- [Discord](https://discord.gg/3rgReesP5Q)
+- [Support Server](https://ezsys.link/support)
 - [Legal Email](mailto:legal@easysystems.live)

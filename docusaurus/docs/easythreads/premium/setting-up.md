@@ -9,5 +9,5 @@ Set up the app by following the instructions provided by the app.
 ## Step 4: Enjoy your premium app
 Enjoy your premium app and all the features it has to offer.
 ## Step 5: Need help?
-If you need help with setting up your premium app, feel free to ask for help in our [Support Server](https://discord.gg/3rgReesP5Q).
+If you need help with setting up your premium app, feel free to ask for help in our [Support Server](https://ezsys.link/support).
 **See you soon.**

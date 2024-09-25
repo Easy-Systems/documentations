@@ -106,6 +106,14 @@ const config: Config = {
               href: 'https://docs.easysystems.live/docs/intro#app-invites',
             },
             {
+              label: 'App Votes',
+              href: 'https://docs.easysystems.live/docs/intro#app-votes',
+            },
+            {
+              label: 'Custom Branding (Premium)',
+              href: 'https://ezsys.link/premium',
+            },
+            {
               label: 'Support Server',
               href: 'https://ezsys.link/support',
             },
