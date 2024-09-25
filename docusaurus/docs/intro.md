@@ -20,13 +20,14 @@ Try it out.
 ## Can I contribute to EasySystems?
 Yes, you can! We are always looking for new contributors to help us improve our apps and documentations. If you want to contribute, please check out our [GitHub](https://github.com/Easy-Systems/documentations) page and contact us via [Discord](https://ezsys.link/support).
 
-
-## Useful Links:
-- [Support Server](https://discord.gg/3rgReesP5Q)
+## App Invites:
 - [EasyThreads App Invite](https://ezsys.link/threads)
 - [EasyLevel App Invite](https://ezsys.link/level)
 - [EasyVoice App Invite](https://ezsys.link/voice)
 - [EasyYAUDAB App Invite](https://ezsys.link/yaudab)
+
+## Useful Links:
+- [Support Server](https://discord.gg/3rgReesP5Q)
 - [GitHub](https://github.com/easy-systems/)
 
 ## Contact Us:

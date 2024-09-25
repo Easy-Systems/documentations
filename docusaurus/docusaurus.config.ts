@@ -102,12 +102,8 @@ const config: Config = {
           title: 'Helpful Ressources',
           items: [
             {
-              label: 'Dashboard',
-              href: 'https://easythreads.easysystems.live/dashboard',
-            },
-            {
-              label: 'App Invite',
-              href: 'https://ezsys.link/threads',
+              label: 'App Invites',
+              href: 'https://docs.easysystems.live/docs/intro#app-invites',
             },
             {
               label: 'Support Server',
