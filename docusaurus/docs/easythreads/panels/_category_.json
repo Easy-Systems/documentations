@@ -1,6 +1,6 @@
 {
-    "label": "Premium Guide",
-    "position": 5,
+    "label": "Panels",
+    "position": 4,
     "link": {
       "type": "generated-index"
     }

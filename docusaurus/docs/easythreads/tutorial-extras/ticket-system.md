@@ -12,7 +12,7 @@ In this tutorial we will show you how to set up a ticket system with EasyThreads
 ## Step 1: Create a channel for the ticket system
 Create a new channel where the tickets will be created. In our example the channel is named: `ticket-support`.
 ## Step 2: Create the ticket panel
-We are using **[/panel threads](/docs/panels/panel)** to create this ticket panel.
+We are using **[/panel threads](/docs/easythreads/panels/panel)** to create this ticket panel.
 ##### Panel Channel:
 First you'll set the channel you've just created to the channel the panel will be send in.  
 Your command should look like this now:
