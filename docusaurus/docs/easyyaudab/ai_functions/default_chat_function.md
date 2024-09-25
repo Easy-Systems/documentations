@@ -9,7 +9,7 @@ sidebar_position: 1
 <details>
 	<summary>Overview of general permissions</summary>
 	
-	These permissions are needed for users to use the main chat function in a channel
+	These permissions are needed for users to use the default chat function in a channel
 	- View Channel permissions
 	- Send Messages permissions
 </details>
@@ -26,7 +26,12 @@ The context is stored per user per channel which means if you used the /chat com
 ## Usage
 The usage depends on the configuration by the server owner.<br/>
 The default configuration is that you have to ping EasyYAUDAB on every message but this can also be turned off.<br/>
-If you're unsure about how the function is set up on the server you're trying to use it in ask the server team or observe other users interacting with the bot.
+If you're unsure about how the function is set up on the server you're trying to use it in ask the server team or observe other users interacting with the bot.<br/>
+:::tip
+	If you need to talk to a user in a channel where the default chat function is allowed, especially if the need to ping the bot is turned off, it's recommended to start your messages with `//`.<br/>
+	**Example:** "// Hey _username_, you better use _#channelname_ for that message."<br/>
+	This will make the bot ignore your message. It will be confirmed by a 💤 reaction on your message.
+:::
 
 ## Examples
 `@EasyYAUDAB Hi, what's up?`<br/>
