@@ -98,7 +98,7 @@ For us it looks like this if an user creates a ticket:
 
 ## Frequently Asked Questions
 #### Q: What are `{newline}`,... in the final command?  
-**A:** `{newline}`, `{date}`, `{time}`, `{guild}` and `{user}` are **[variables](/docs/general/help#variables)** which you can use within EasyThreads.
+**A:** `{newline}`, `{date}`, `{time}`, `{guild}` and `{user}` are **[variables](/docs/easythreads/general/help#variables)** which you can use within EasyThreads.
 
 #### Q: Can I use emojis in the panel?
 **A:** You can! We recommend to use Discord Built-In Emojis, like:  
