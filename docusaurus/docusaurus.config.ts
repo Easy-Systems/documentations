@@ -72,7 +72,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://discord.gg/3saMREh8KN',
+          href: 'https://ezsys.link/support',
           label: 'Support Server',
           position: 'right',
         },
