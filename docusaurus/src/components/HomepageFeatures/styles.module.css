@@ -9,3 +9,48 @@
   height: 200px;
   width: 200px;
 }
+
+.docsButton {
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  background: #0f0c29; /* Dark background */
+  color: white;
+  border: 2px solid; /* Border color will be set inline */
+  padding: 5px 10px; /* Reduced padding */
+  font-size: 14px; /* Reduced font size */
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px; /* Reduced letter spacing */
+}
+
+.docsButton:hover {
+  box-shadow: 0 0 5px currentColor, 0 0 10px currentColor, 0 0 20px currentColor, 0 0 40px currentColor;
+}
+
+.addToServerButton {
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  color: white;
+  border: none;
+  padding: 5px 10px; /* Reduced padding */
+  font-size: 14px; /* Reduced font size */
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px; /* Reduced letter spacing */
+}
+
+.addToServerButton:hover {
+  color: white;
+  transform: scale(1.05); /* Slight scale effect */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+  margin-top: 10px;
+}
