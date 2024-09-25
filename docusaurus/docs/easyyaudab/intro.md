@@ -31,6 +31,9 @@ This is a tutorial for a basic setup of EasyYAUDAB in a channel
 		- Use External Emoji
 	- The bot can see the channel you want to use and has the aforementioned permissions in this channel
 3. Run `/config allowed_channels channel: #yourchannelname ping: False minified: False`. Replace yourchannelname with the name of the channel you want to use.
+:::warning
+The bot will reply to every message using this setup. Please make sure the channel you are using is only meant for chatting with the bot to avoid spam from happening or adjust the settings accordingly.
+:::
 
 Congrats, you can now chat away with the bot!
 Wanna know what else you can configure with the bot and how you can make the responses look more like normal messages?
