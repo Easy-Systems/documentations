@@ -10,6 +10,7 @@ Create media-only channels with autothreading, ticket systems with ticket panels
 Try it out.
 
 ## Useful Links:
-- [Support Server](https://ezsys.link/support)
-- [App Invite](https://ezsys.link/threads)
+- [EasyThreads App Invite](https://ezsys.link/threads)
+- [EasyThreads App top.gg Vote](https://top.gg/bot/992796487048233000/vote)
 - [Custom Branding (Premium)](https://ezsys.link/premium)
+- [Support Server](https://ezsys.link/support)
