@@ -18,7 +18,7 @@ Follow the tutorial below for a basic setup and / or learn more about how to use
 
 ## Getting started
 This is a tutorial for a basic setup of EasyYAUDAB in a channel
-1. [Invite](https://ezsys.link/yaudab) EasyYAUDAB
+1. [EasyYAUDAB App Invite](https://ezsys.link/yaudab)
 2. Make sure the prerequisites are met
 	- The bot has the neccessary permissions, namely
 		- Read Message History
@@ -38,3 +38,7 @@ The bot will reply to every message using this setup. Please make sure the chann
 Congrats, you can now chat away with the bot!
 Wanna know what else you can configure with the bot and how you can make the responses look more like normal messages?
 Then read on, you will find all the commands explained in detail on the following pages
+
+## Useful Links:
+- [EasyYAUDAB App top.gg Vote](https://top.gg/bot/1094278296767840307/vote)
+- [Support Server](https://ezsys.link/support)
