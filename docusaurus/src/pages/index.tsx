@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
-
+import LatestBlog from '@site/src/components/LatestBlog';
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -37,6 +37,8 @@ export default function Home(): JSX.Element {
         <br />
         <Heading as="h1" className="text--center">These apps are part of EasySystems:</Heading>
         <HomepageFeatures />
+        <Heading as='h1' className='text--center'>Latest Blog Posts</Heading>
+        <LatestBlog />
         <br />
       </main>
     </Layout>
