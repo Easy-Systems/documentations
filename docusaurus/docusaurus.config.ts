@@ -103,11 +103,11 @@ const config: Config = {
           items: [
             {
               label: 'App Invites',
-              href: 'https://docs.easysystems.live/docs/intro#app-invites',
+              to: '/docs/intro#app-invites',
             },
             {
               label: 'App Votes',
-              href: 'https://docs.easysystems.live/docs/intro#app-votes',
+              to: '/docs/intro#app-votes',
             },
             {
               label: 'Custom Branding (Premium)',
