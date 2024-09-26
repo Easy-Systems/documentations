@@ -15,7 +15,7 @@ const LatestBlog: React.FC = () => {
   useEffect(() => {
     const fetchRSS = async () => {
       try {
-        const response = await fetch('http://localhost:5000/rss');
+        const response = await fetch('https://docs.easysystems.live/blog/rss.xml'); //  http://localhost:5000/rss
         const text = await response.text();
         console.log("Fetched RSS feed:", text);
         const parser = new DOMParser();
