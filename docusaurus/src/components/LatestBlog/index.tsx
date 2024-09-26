@@ -73,7 +73,7 @@ const LatestBlog: React.FC = () => {
         </ul>
       ) : (
         <p className={styles.noPostsMessage}>
-          No posts available. This could be due to a technical error! Try again later, if this issue persists <a href="https://ezsys.link/support">contact us</a>
+          No posts available. This could be due to a technical error! Try again later, if this issue persists <a href="https://ezsys.link/support">contact us</a>.
         </p>
       )}
     </div>
