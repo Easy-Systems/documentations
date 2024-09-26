@@ -62,7 +62,7 @@ We like to read some text and not just keywords.
 The deadline for submitting applications is **October 15th, 2024**. We will not be accepting any late applications, so please be sure to submit your application before the deadline.
 
 ## Contact Us
-If you have any questions about the application process or the staff positions, please feel free to reach out to us at  our [support discord server](https.//ezsys.link/support). We look forward to reviewing your application!
+If you have any questions about the application process or the staff positions, please feel free to reach out to us at  our [support discord server](https://ezsys.link/support). We look forward to reviewing your application!
 
 ---
 
