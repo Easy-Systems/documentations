@@ -6,12 +6,12 @@ sidebar_position: 3
 
 **Required User Permissions:** Administrator
 
-:::info
+::::info
 	This requirement can be overridden by using the integrations tab in your server settings.<br/>
 	:::warning
 		Overriding the permissions for this command allows access to all /config commands
 	:::
-:::
+::::
 
 ## Description
 The **/config show-instructions** command allows you to get your custom system prompt for a channel.

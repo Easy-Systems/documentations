@@ -6,11 +6,12 @@ sidebar_position: 1
 
 **Required User Permissions:** Administrator
 
-:::info
+::::info
 This requirement can be overridden by using the integrations tab in your server settings.<br/>
 	:::warning
 		Overriding the permissions for this command allows access to all /config commands
-:::
+	:::
+::::
 
 ## Description
 The **/config allowed_channels** command allows you to add / remove channels for the default chat function and configure basic settings.

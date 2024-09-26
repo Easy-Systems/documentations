@@ -30,6 +30,11 @@ sidebar_position: 2
 ## Description
 The **/chat** command allows you to talk to an AI model.
 
+:::note
+	- Unlike the default chat function this will always reply in an expanded embed format.<br/>
+	- Like the default chat function, this command will also listen to custom instructions set for the channel through the `/config set-instructions` command.
+:::
+
 Like the default chat function this function has context awareness, which means it will remember your previous messages as well as its' replies to some extent.<br/>
 The context is stored per user per channel which means if you used the default chat function before in the same channel using this command will also use that information.<br/>
 :::tip
