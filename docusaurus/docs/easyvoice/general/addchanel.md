@@ -13,14 +13,14 @@ With the **/addchannel** command you set up a creator channel and a category. If
 ## Options
 <Tabs>
   <TabItem value="Required">
-	|	Option	|	Variable	|	Desctiption	|
+	|	Option	|	Possible values	|	Description	|
 	|	:---:	|	:---:	|	:---:	|
 	|	**channel**	|		|	The voice channel you want to add as creator channel	|
 	|	**category**	|		|	The category where the temporary voice channel will be created	|
   </TabItem>
   <TabItem value="Optional">
   
-	|	Option	|	Variable	|	Desctiption	|
+	|	Option	|	Possible values	|	Description	|
 	|	:---	|	:---:	|	:---	|
 	|	**name**	|		|	The name of the created temporary voice channel	|
 	|	**limit**	|		|	The user limit of the temporary voice channel	|
@@ -32,7 +32,7 @@ With the **/addchannel** command you set up a creator channel and a category. If
   <TabItem value="Sendpanel options">
   To use this options you need to have set **sendpanel: True**
   
-	|	Option	|	Variable	|	Desctiption	|
+	|	Option	|	Possible values	|	Description	|
 	|	:---	|	:---:	|	:---	|
 	|	**disable-namebutton**	|	(True/False)	|	If true the name change button on the control panel will be enabled	|
 	|	**disable-privacybutton**	|	(True/False)	|	If true the privacy button on the control panel will be enabled	|
