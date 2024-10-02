@@ -34,16 +34,16 @@ With the **/addchannel** command you set up a creator channel and a category. If
   
 	|	Option	|	Variable	|	Desctiption	|
 	|	:---	|	:---:	|	:---	|
-	|	**diable-namebutton**	|	(True/False)	|	If true the name change button on the control panel will be enabled	|
-	|	**diable-privacybutton**	|	(True/False)	|	If true the privacy button on the control panel will be enabled	|
-	|	**diable-limitbutton**	|	(True/False)	|	If true the limit button on the control panel will be enabled	|
-	|	**diable-whitelistbutton**	|	(True/False)	|	If true the whitelist button on the control panel will be enabled	|
-	|	**diable-kickbutton**	|	(True/False)	|	If true the kick button on the control panel will be enabled	|
-	|	**diable-banbutton**	|	(True/False)	|	If true the ban button on the control panel will be enabled	|
-	|	**diable-regionbutton**	|	(True/False)	|	If true the region button on the control panel will be enabled	|
-	|	**diable-claimbutton**	|	(True/False)	|	If true the claim button on the control panel will be enabled	|
-	|	**diable-transferbutton**	|	(True/False)	|	If true the transfer button on the control panel will be enabled	|
-	|	**diable-deletebutton**	|	(True/False)	|	If true the delete button on the control panel will be enabled	|
+	|	**disable-namebutton**	|	(True/False)	|	If true the name change button on the control panel will be enabled	|
+	|	**disable-privacybutton**	|	(True/False)	|	If true the privacy button on the control panel will be enabled	|
+	|	**disable-limitbutton**	|	(True/False)	|	If true the limit button on the control panel will be enabled	|
+	|	**disable-whitelistbutton**	|	(True/False)	|	If true the whitelist button on the control panel will be enabled	|
+	|	**disable-kickbutton**	|	(True/False)	|	If true the kick button on the control panel will be enabled	|
+	|	**disable-banbutton**	|	(True/False)	|	If true the ban button on the control panel will be enabled	|
+	|	**disable-regionbutton**	|	(True/False)	|	If true the region button on the control panel will be enabled	|
+	|	**disable-claimbutton**	|	(True/False)	|	If true the claim button on the control panel will be enabled	|
+	|	**disable-transferbutton**	|	(True/False)	|	If true the transfer button on the control panel will be enabled	|
+	|	**disable-deletebutton**	|	(True/False)	|	If true the delete button on the control panel will be enabled	|
 
   </TabItem>
 </Tabs>
