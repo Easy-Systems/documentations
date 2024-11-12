@@ -82,6 +82,9 @@ Currently, I'm playing __Valorant__ and __Minecraft__ almost every day. Sometime
 >
 > Cya in chat (～￣▽￣)～
 
+### Crombo
+We have not yet received a response from this staff member. This may change at a later date.
+
 ## CX Support & Moderation
 _They are engaged in assisting and moderating the customer experience, including interacting with customers and ensuring a positive customer experience._
 
