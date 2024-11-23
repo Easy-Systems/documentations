@@ -3,7 +3,7 @@ slug: 11-23-2024-staff-apps
 title: Winter Staff Applications
 description: We are searching for new staff - CX Support & Moderation
 authors:
-  [easysystems]
+  [team]
 tags: [community]
 date: 11-23-2024
 ---
