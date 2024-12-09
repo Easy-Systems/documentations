@@ -57,8 +57,6 @@ We like to read some text and not just keywords.
 5. If your application is successful, you will be invited to an interview with the team (this interview can either be written or oral).
 6. If you pass the interview, you will be offered a position in the team.
 
-## Application Deadline
-The deadline for submitting applications is **December 8th, 2024**. We will not be accepting any late applications, so please be sure to submit your application before the deadline.
 
 ## Contact Us
 If you have any questions about the application process or the staff positions, please feel free to reach out to us at  our [support discord server](https://ezsys.link/support). We look forward to reviewing your application!
