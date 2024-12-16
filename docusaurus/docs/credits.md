@@ -8,8 +8,8 @@ title: Credits
 - **[melon](/blog/authors/themelon)**: 
     - Project Lead: Community Work, Manager, Web Developer
 - **[zippybonzo](/blog/authors/zippybonzo)**: 
-    - Content Writer, Developer of EasyLevel
+    - Content Writer, Developer of EasyLevel & EasyThreads
 
 ### Special Thanks to:
-- **[ExampleUser](https://github.com/easy-systems)**: 
-    - Created: XYZ
+- **[WarsheepGER](https://github.com/Warsheep-GER)**: 
+    - Created: EasyThreads Documentation, EasyVoice Documentation
