@@ -168,7 +168,6 @@ const config: Config = {
       appId: '9QKD7EUUWL',
       apiKey: 'f778ab1975fd34fae19ea4debb9cc038',
       indexName: 'easysystems',
-
       contextualSearch: true,
     }
   } satisfies Preset.ThemeConfig,
