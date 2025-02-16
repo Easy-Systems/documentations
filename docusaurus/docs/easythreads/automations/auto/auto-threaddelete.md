@@ -3,6 +3,7 @@ sidebar_position: 2
 ---
 
 # /auto threaddelete
+**Default Permissions:** Administrator
 ## Description
 Automatically delete threads in a channel once they get archived. Executing this command again will disable this setting.
 ## Options
