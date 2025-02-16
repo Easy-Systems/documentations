@@ -3,6 +3,7 @@ sidebar_position: 3
 ---
 
 # /auto threadunarchive
+**Default Permissions:** Administrator
 ## Description
 Automatically unarchive threads in a channel once they get archived. Executing this command again will disable this setting.
 ## Options
