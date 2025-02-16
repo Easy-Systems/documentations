@@ -3,6 +3,7 @@ sidebar_position: 8
 ---
 
 # /threadmessage create
+**Default Permissions:** Administrator
 ## Description
 Create a message to automatically send in all new created threads and posts of a specific channel.
 ## Options
