@@ -3,6 +3,7 @@ sidebar_position: 9
 ---
 
 # /threadmessage edit
+**Default Permissions:** Administrator
 ## Description
 Edit an automatic thread message.
 ## Options
