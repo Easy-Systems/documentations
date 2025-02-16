@@ -3,6 +3,7 @@ sidebar_position: 7
 ---
 
 # /forumsettings listignored
+**Default Permissions:** Administrator
 ## Description
 List all ignored roles and users for automatic forum settings.
 ## Options

@@ -3,6 +3,7 @@ sidebar_position: 5
 ---
 
 # /forumsettings auto-tags
+**Default Permissions:** Administrator
 ## Description
 Automatically apply tags to a forum post.
 ## Options
@@ -10,6 +11,6 @@ Automatically apply tags to a forum post.
 ## Examples
 **Apply tags to a forum post:**
 ```bash
-/forumsettings auto-tags channel:forum -> Selectmenu
+/forumsettings auto-tags channel:forum
 ```
-This will apply tags to the forum post in the channel "forum".
+This will open a select menu and apply tags to the forum post in the forum "forum".

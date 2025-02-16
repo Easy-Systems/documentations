@@ -3,6 +3,7 @@ sidebar_position: 6
 ---
 
 # /forumsettings ignorerole
+**Default Permissions:** Administrator
 ## Description
 Ignore a role for applying forum settings automatically. Executing this command again will unblock the role.
 ## Options

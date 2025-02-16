@@ -3,6 +3,7 @@ sidebar_position: 4
 ---
 
 # /forumsettings general
+**Default Permissions:** Administrator
 ## Description
 Automatically apply settings to a forum channel.
 ## Options
