@@ -3,6 +3,7 @@ sidebar_position: 10
 ---
 
 # /threadmessage delete
+**Default Permissions:** Administrator
 ## Description
 Delete an automatic thread message.
 ## Options
