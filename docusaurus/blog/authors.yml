@@ -3,9 +3,10 @@ themelon:
   title: Developer, Manager at EasySystems
   description: 'Just a melon that codes.'
   page: true
+  image_url: https://docs.easysystems.live/img/brand/melon.png
   socials:
     github: themelone2
-    website: https://ezsys.link/melon
+    website: https://themelon.live
     email: mailto:legal@easysystems.live
 
 easythreads:
