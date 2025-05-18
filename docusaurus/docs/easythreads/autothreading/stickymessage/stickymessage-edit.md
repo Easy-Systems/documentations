@@ -24,6 +24,19 @@ By using the **/stickymessage edit** command you can edit an existing sticky mes
 - **link-button-label**: The new label for the link button. *(optional)*
 - **link-button-url**: The new URL for the link button. *(optional)*
 
+## Variables
+- **\{message}**: The first 50 characters of the message trigerring the autothreading
+- **\{firstline}**: The first line of the message trigerring the autothreading
+- **\{embedtitle}**: The title of the embed in the message trigerring the autothreading
+- **\{filename}**: The name of the first provided file. If no file is provided it will be "No File Name
+- **\{user}**: The username of the user sending the message
+- **\{usernickname}**: The nickname/display Name of the user triggeringthe autothreading
+- **\{usermention}**: This will mention the user triggering the autothreading
+- **\{guild}**: The name of the server
+- **\{newline}**: This will start a new line in messages sent by the app
+- **\{time}**: This will be replaced with the current time. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/docs/easythreads/general/timezone)** command.
+- **\{date}**: This will be replaced with the current date. Default timezone is UTC, it can be changed guild-specific with the **[/timezone](/docs/easythreads/general/timezone)** command.
+
 ## Examples
 ```bash
 /stickymessage edit channel:media embed-title:Updated Media Channel embed-description:Share your latest creations! embed-color:#3657b1 link-button-label:Read the Rules link-button-url:linktorules
