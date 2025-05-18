@@ -14,3 +14,5 @@ Automatically apply tags to a forum post.
 /forumsettings auto-tags channel:forum
 ```
 This will open a select menu and apply tags to the forum post in the forum "forum".
+![Example: Apply tags to a forum post](./img/ForumSettings_AutoTags.png)
+![Example: Apply tags to a forum post](./img/ForumSettings_AutoTags2.png)
