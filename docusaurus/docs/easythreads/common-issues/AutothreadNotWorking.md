@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-description: Resolve the issue when the application does not respond to your command.
+description: Resolve the issue when the bot does not create a thread when you send a message in a channel.
 ---
 
 # Autothreading does not work
