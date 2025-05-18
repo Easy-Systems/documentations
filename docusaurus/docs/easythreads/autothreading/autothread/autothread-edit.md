@@ -45,9 +45,9 @@ By using the **/autothread edit** command, you can edit the autothreading settin
 ## Examples
 ### Introduction Channel:
 ```bash
-/autothread enable channel:#introduction name:{user}`s introduction threadmessage:Hey {usermention},{newline}Your introduction seems pretty cool :) Maybe some of use share the same hobbies as you...
+/autothread edit channel:#introduction name:{user}`s introduction threadmessage:Hey {usermention},{newline}Your introduction seems pretty cool :) Maybe some of us share the same hobbies as you...
 ```
-This will enable autothreading in the channel #introduction with the name "\{user}'s introduction".
+This will edit autothreading in the channel #introduction with the name "\{user}'s introduction".
 
 ![Example: Introduction ThreadMessage](./img/examples/Introduction_Message.png)
 

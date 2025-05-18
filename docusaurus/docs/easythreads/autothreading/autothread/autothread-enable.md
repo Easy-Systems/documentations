@@ -45,7 +45,7 @@ By using the **/autothread enable** command, you can automatically enable the au
 ## Examples
 ### Introduction Channel:
 ```bash
-/autothread enable channel:#introduction name:{user}`s introduction threadmessage:Hey {usermention},{newline}Your introduction seems pretty cool :) Maybe some of use share the same hobbies as you...
+/autothread enable channel:#introduction name:{user}`s introduction threadmessage:Hey {usermention},{newline}Your introduction seems pretty cool :) Maybe some of us share the same hobbies as you...
 ```
 This will enable autothreading in the channel #introduction with the name "\{user}'s introduction".
 
