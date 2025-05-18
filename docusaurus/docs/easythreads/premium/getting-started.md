@@ -1,4 +1,5 @@
 # Getting Started
-Welcome to the Premium Guide of EasyThreads
-This guide will help you to get started with Premium / Custom Branding Version of EasyThreads, how to get setting things up after you've bought EasyThreads Custom Branding, How to buy Custom Branding and much more.
+Welcome to the EasyThreads Premium Guide.
+
+This guide will walk you through getting started with the Premium and Custom Branding version of EasyThreads. You'll learn how to set up your environment after purchasing Custom Branding, how to buy Custom Branding, and more.
 
