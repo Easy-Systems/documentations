@@ -18,6 +18,7 @@ By using the **/autothread enable** command, you can automatically enable the au
 - **threadmessage**: The message you want to send in the created threads. *(optional)*
 - **delay**: The delay in seconds to wait before the thread is being created. Maximum delay is 10 seconds *(optional)*
 - **cooldown**: The chat cooldown in seconds in the created in threads *(optional)*
+- **require-attachment**: Whether the thread should only be created if the message contains an attachment *(optional)*
 - **ignorebots**: Whether to ignore messages by apps *(optional)*
 - **ignoreusers**: Whether to ignore messages by users  *(optional)*
 - **pin-threadmessage**: Whether to pin the threadmessage sent in the thread, if set *(optional)*
