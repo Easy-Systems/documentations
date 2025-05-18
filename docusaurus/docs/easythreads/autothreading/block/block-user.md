@@ -3,12 +3,13 @@ sidebar_position: 2
 ---
 
 # /block user
-:::info
-This documentation is work in progress!
-If you want to contribute, [**read our contribution guide**](../../../opensource.md).
-:::
 
 ## Description
+By using the **/block user** command you can block a user from autothreading in a specific channel. Autothreading has to enabled in the channel for this command to work. This will only block the user from autothreading in the specified channel, not from all channels. 
 ## Options
-## Variables
+- **user** : The user you want to block from autothreading. *(required)*
+
 ## Examples
+```bash
+/block user user:@randomperson
+```
