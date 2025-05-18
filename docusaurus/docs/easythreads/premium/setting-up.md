@@ -1,7 +1,7 @@
 # Setting up your premium app
 In this tutorial we will show you how to set up your premium app with EasyThreads.
 ## Step 1: Create a new app
-Create a new app on the [Discord Developer Portal](https://discord.com/developers/applications). Make sure to also enable the "Message Content Intent" after creation.
+Create a new app on the [Discord Developer Portal](https://discord.com/developers/applications). Make sure to also enable the "Message Content Intent" and the "Guild Members Intent" after creation.
 ## Step 2: Add the app to your server
 Add the app to your server by using the invite link provided by the Discord Developer Portal.
 ## Step 3: Set up the app
