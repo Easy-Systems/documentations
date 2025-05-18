@@ -31,13 +31,13 @@ The **/edit threadpanel** command allows you to edit an existing thread panel. T
 - **archive-time**: The time of inactivity after which the thread will be archived. *(optional)*
 
 ## Variables
-- **{user}**: The username of the user creating the thread
-- **{usernickname}**: The nickname/display name of the user creating the thread
-- **{usermention}**: Mentions the user creating the thread
-- **{guild}**: The name of the server
-- **{newline}**: Starts a new line in messages sent by the app
-- **{time}**: The current time (timezone can be set with the [/timezone](/docs/easythreads/general/timezone) command)
-- **{date}**: The current date (timezone can be set with the [/timezone](/docs/easythreads/general/timezone) command)
+- **\{user}**: The username of the user creating the thread
+- **\{usernickname}**: The nickname/display name of the user creating the thread
+- **\{usermention}**: Mentions the user creating the thread
+- **\{guild}**: The name of the server
+- **\{newline}**: Starts a new line in messages sent by the app
+- **\{time}**: The current time (timezone can be set with the [/timezone](/docs/easythreads/general/timezone) command)
+- **\{date}**: The current date (timezone can be set with the [/timezone](/docs/easythreads/general/timezone) command)
 
 ## Example
 ```bash
