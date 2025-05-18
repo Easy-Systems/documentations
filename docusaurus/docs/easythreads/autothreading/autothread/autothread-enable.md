@@ -27,6 +27,7 @@ By using the **/autothread enable** command, you can automatically enable the au
 - **private**: Whether the automatically created thread should be private or not. Default: false *(optional)*
 - **block-invites**: If this and the private option is enabled, this will disable the ability of normal members to add users to the thread by pinging them *(optional)*
 - **sticktomessage**: If enabled, the autothread of a message will automatically be removed once the message got deleted. *(optional)*
+- **ignore-replies**: Whether to ignore replies to other messages in the channel *(optional)*
 
  \* optional, but at least one of these options must be applied!
 ## Variables
