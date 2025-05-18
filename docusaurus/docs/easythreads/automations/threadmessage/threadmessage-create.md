@@ -10,7 +10,7 @@ This command is **limited to custom branding**. If you want to use this command,
 
 **Default Permissions:** Administrator
 ## Description
-By using the **/threadmessage create** command you can create an automatic thread message in a specific channel. This command is similar to the post-message option in the [/forumsettings-general](../docs/easythreads/autothreading/forumsettings/forumsettings-general) command, but with more customization options. Additionally, this command does not only work for forum posts, but also for normal threads. This command is useful for creating a message that will be sent automatically when a user creates a thread in the specified channel. 
+By using the **/threadmessage create** command you can create an automatic thread message in a specific channel. This command is similar to the post-message option in the [/forumsettings-general](../forumsettings/forumsettings-general) command, but with more customization options. Additionally, this command does not only work for forum posts, but also for normal threads. This command is useful for creating a message that will be sent automatically when a user creates a thread in the specified channel. 
 
 ## Options
 - **channel:** The channel where you want to create the automatic thread message. *(required)*
