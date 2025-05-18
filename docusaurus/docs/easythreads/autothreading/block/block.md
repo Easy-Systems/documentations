@@ -3,9 +3,7 @@ sidebar_position: 1
 ---
 
 # /block
-:::info
-This documentation is work in progress!
-If you want to contribute, [**read our contribution guide**](../../../opensource.md).
-:::
-
 ### Commands:
+- ### [/block user](/docs/easythreads/autothreading/block/block-user)
+- ### [/block role](/docs/easythreads/autothreading/block/block-role)
+- ### [/block list](/docs/easythreads/autothreading/block/block-list)
