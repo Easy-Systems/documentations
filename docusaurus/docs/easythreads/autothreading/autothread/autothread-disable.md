@@ -3,6 +3,8 @@ sidebar_position: 5
 ---
 
 # /autothread disable
+
+**Default Permissions:** Administrator
 ## Description
 By using the **/autothread disable** command, you can disable the automatic thread creation in a specific channel.
 ## Options

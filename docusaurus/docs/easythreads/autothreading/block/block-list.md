@@ -4,6 +4,7 @@ sidebar_position: 3
 
 # /block list
 
+**Default Permissions:** Administrator
 ## Description
 The **/block list** command will show you a list of all the users and roles that are blocked from autothreading in the specified channel. Autothreading has to be enabled in the channel for this command to work. This will only show the users and roles that are blocked from autothreading in the specified channel, not of the other channels.
 **Support** channel, you can use this command.
