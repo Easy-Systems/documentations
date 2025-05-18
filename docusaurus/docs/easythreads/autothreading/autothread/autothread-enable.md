@@ -29,9 +29,10 @@ By using the **/autothread enable** command, you can automatically enable the au
 - **sticktomessage**: If enabled, the autothread of a message will automatically be removed once the message got deleted. *(optional)*
 - **ignore-replies**: Whether to ignore replies to other messages in the channel *(optional)*
 
- \* optional, but at least one of these options must be applied!
 ## Variables
 - **\{message}**: The first 50 characters of the message trigerring the autothreading
+- **\{firstline}**: The first line of the message trigerring the autothreading
+- **\{embedtitle}**: The title of the embed in the message trigerring the autothreading
 - **\{filename}**: The name of the first provided file. If no file is provided it will be "No File Name
 - **\{user}**: The username of the user sending the message
 - **\{usernickname}**: The nickname/display Name of the user triggeringthe autothreading
