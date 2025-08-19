@@ -51,10 +51,11 @@ The context is stored per user per channel which means if you used the default c
 	- Allows to set one of the available models, currently
 		- GPT-3.5 [16k tokens] (Legacy)
 		- GPT-4o-mini [128k tokens] (Default)
-		- GPT-4o [128k tokens] (Restricted)
+		- GPT-4.1-nano [1M tokens] (Restricted)
+		- GPT-4.1-mini [1M tokens] (Restricted)
 :::note
-	As GPT-4o costs a lot access to this model is restricted and has to be requested by the server owner for their server.<br/>
-	If you are a server owner and want to request access to this model, open a ticket on our [Support Discord](https://ezsys.link/support)
+	As GPT-4.1 and other newer models cost a lot access to these models are restricted and have to be requested by the server owner for their server.<br/>
+	If you are a server owner and want to request access to any of these models, open a ticket on our [Support Discord](https://ezsys.link/support)
 :::
 
 ## Examples
