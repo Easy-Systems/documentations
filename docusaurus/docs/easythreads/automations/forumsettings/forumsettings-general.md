@@ -15,6 +15,7 @@ The **/forumsettings general** command allows you to set up the default settings
 - **post-reaction:**: The reaction to add to the post. *(optional)*
 - **lock-post** Whether to lock the post after creation. *(optional)*
 - **pin-startmessage**: If enabled, the bot will pin the message that it has created the post with. *(optional)*
+- **pin-postmessage**: If set to true, the bot will automatically pin the message set with the post-message option within the post *(optional)*
 - **pin-post**: If enabled, the bot will pin the post. Due to Discord limitations, this will make only the latest post to be pinned. *(optional)*
 
 ## Variables
