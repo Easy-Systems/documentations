@@ -2,11 +2,9 @@
 slug: meet-the-team
 title: Behind the scenes - The Team (WiP)
 description: This is an introduction of the team behind EasyThreads
-authors:
-  [themelon]
+authors: [themelon]
 tags: [community]
-date: 05-09-2024
----
+date: 2024-05-09
 ---
 ![EasySystems V2 Server Banner](../../static/img/easysystems_v2_banner.png)
 Hey **@everyone**,

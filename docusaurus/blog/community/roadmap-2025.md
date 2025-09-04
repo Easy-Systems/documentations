@@ -2,10 +2,9 @@
 slug: roadmap-2025
 title: Roadmap - 2025
 description: Exciting new products and features coming in 2025!
-authors:
-  [themelon]
+authors: [themelon]
 tags: [community]
-date: 02-20-2025
+date: 2025-02-20
 ---
 ![EasySystems V2 Server Banner](../../static/img/easysystems_v2_banner.png)
 

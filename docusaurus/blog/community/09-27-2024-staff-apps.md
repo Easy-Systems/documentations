@@ -2,11 +2,9 @@
 slug: 09-27-2024-staff-apps
 title: Staff apps are here!!!
 description: We are searching new staff!
-authors:
-  [themelon]
+authors: [themelon]
 tags: [community]
-date: 09-27-2024
----
+date: 2024-09-27
 ---
 ![EasySystems V2 Server Banner](../../static/img/easysystems_v2_banner.png)
 
