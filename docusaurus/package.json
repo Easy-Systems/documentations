@@ -14,24 +14,30 @@
     "serve": "docusaurus serve --build --port 1213",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "proxy": "node proxy-server.js"
   },
   "dependencies": {
-    "@docusaurus/core": "*",
-    "@docusaurus/preset-classic": "*",
+    "@docusaurus/core": "^3.8.1",
+    "@docusaurus/preset-classic": "^3.8.1",
     "@mdx-js/react": "*",
     "clsx": "*",
     "cors": "^2.8.5",
     "express": "^4.21.2",
+    "http-proxy-middleware": "^2.0.6",
+    "js-yaml": "^4.1.0",
+    "marked": "^16.2.1",
     "prism-react-renderer": "*",
     "react": "*",
     "react-dom": "*",
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "*",
-    "@docusaurus/tsconfig": "*",
-    "@docusaurus/types": "*",
+    "@docusaurus/module-type-aliases": "^3.8.1",
+    "@docusaurus/tsconfig": "^3.8.1",
+    "@docusaurus/types": "^3.8.1",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
     "typescript": "*"
   },
   "browserslist": {

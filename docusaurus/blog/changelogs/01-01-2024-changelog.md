@@ -2,10 +2,9 @@
 slug: changelog-example
 title: Example Changelog...
 description: This is actually only an example changelog.
-authors:
-  [themelon]
+authors: [themelon]
 tags: [changelog]
----
+date: 2024-01-01
 ---
 # *super catchy headline here*
 

@@ -2,10 +2,9 @@
 slug: roadmap-2025
 title: Roadmap - 2025
 description: Exciting new products and features coming in 2025!
-authors:
-  [themelon]
+authors: [themelon]
 tags: [community]
-date: 02-20-2025
+date: 2025-02-20
 ---
 ![EasySystems V2 Server Banner](../../static/img/easysystems_v2_banner.png)
 
@@ -17,12 +16,12 @@ It's been a hot minute since you last heard from us here, but that just means we
 Over the past few months our team has been super busy developing new internal tools for our staff. These tools may not be visible to you yet, but trust us - some of them will definitely improve your experience in the near future. :O
 
 :::info[Sounds interesting?]
-Interested in joining our staff team? You can find out more [here](/blog/11-23-2024-staff-apps)!
+Interested in joining our staff team? You can find out more [here](/blogs?post=community\11-23-2024-staff-apps)!
 :::
 
 But wait, there's more! We've also been cooking up some really cool updates that you'll be seeing in the coming months. Here's a sneak peek at what's coming in 2025!
 
-## 🚀 Roadmap 2025 ##
+## 🚀 Roadmap 2025
 
 ### 🤖 New EasySystems Bot
 YES, you heard right! The EasySystems family is growing and we're introducing a brand new bot!  

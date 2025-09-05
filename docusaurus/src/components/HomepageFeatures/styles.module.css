@@ -1,55 +1,262 @@
 .features {
+  padding: var(--space-2xl) 0;
+  position: relative;
+}
+
+.features::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 30% 20%, rgba(55, 232, 238, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 70% 80%, rgba(80, 80, 230, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--space-xl);
+  position: relative;
+  z-index: 1;
+}
+
+.featureCard {
+  position: relative;
+  background: var(--bg-card);
+  border-radius: var(--border-radius-xl);
+  padding: var(--space-xl);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-normal);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.featureCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--primary-gradient);
+  transform: scaleX(0);
+  transition: transform var(--transition-normal);
+}
+
+.featureCard:hover::before {
+  transform: scaleX(1);
+}
+
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg), 0 0 40px rgba(55, 232, 238, 0.1);
+}
+
+.cardHeader {
+  position: relative;
+  margin-bottom: var(--space-lg);
+}
+
+.imageContainer {
+  position: relative;
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  justify-content: center;
+  margin-bottom: var(--space-md);
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
+  width: 120px;
+  height: 120px;
+  border-radius: var(--border-radius-lg);
+  transition: transform var(--transition-normal);
+  position: relative;
+  z-index: 2;
 }
 
+.featureCard:hover .featureImage {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.imageGlow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 140px;
+  height: 140px;
+  border-radius: var(--border-radius-lg);
+  transform: translate(-50%, -50%);
+  filter: blur(20px);
+  opacity: 0.3;
+  transition: opacity var(--transition-normal);
+}
+
+.featureCard:hover .imageGlow {
+  opacity: 0.6;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--border-radius);
+  color: white;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: var(--shadow-sm);
+}
+
+.cardContent {
+  margin-bottom: var(--space-lg);
+}
+
+.description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: var(--font-size-base);
+  margin: 0;
+}
+
+.cardActions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.addToServerButton,
 .docsButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  text-decoration: none;
+  transition: all var(--transition-normal);
   position: relative;
   overflow: hidden;
-  transition: box-shadow 0.3s ease;
-  color: white;
-  border: 2px solid;
-  padding: 5px 10px;
-  font-size: 14px;
-  cursor: pointer;
-  border-radius: 5px;
   text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.docsButton:hover {
-  box-shadow: 0 0 5px currentColor, 0 0 10px currentColor, 0 0 20px currentColor, 0 0 40px currentColor;
+  letter-spacing: 0.5px;
 }
 
 .addToServerButton {
-  position: relative;
-  overflow: hidden;
-  transition: background-color 0.3s ease, transform 0.3s ease;
   color: white;
   border: none;
-  padding: 5px 10px;
-  font-size: 14px;
-  cursor: pointer;
-  border-radius: 5px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  box-shadow: var(--shadow-sm);
 }
 
 .addToServerButton:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
   color: white;
-  transform: scale(1.05);
 }
 
-.buttonContainer {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
+.docsButton {
+  background: transparent;
+  border: 2px solid;
+  color: inherit;
 }
+
+.docsButton:hover {
+  background: currentColor;
+  color: var(--text-inverse);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.buttonIcon {
+  width: 16px;
+  height: 16px;
+  transition: transform var(--transition-normal);
+}
+
+.addToServerButton:hover .buttonIcon,
+.docsButton:hover .buttonIcon {
+  transform: translateX(2px);
+}
+
+.cardBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.02;
+  z-index: -1;
+  transition: opacity var(--transition-normal);
+}
+
+.featureCard:hover .cardBackground {
+  opacity: 0.05;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .featuresGrid {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+  
+  .featureCard {
+    padding: var(--space-lg);
+  }
+  
+  .featureImage {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .imageGlow {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .cardActions {
+    flex-direction: row;
+    gap: var(--space-sm);
+  }
+  
+  .addToServerButton,
+  .docsButton {
+    flex: 1;
+    padding: var(--space-xs) var(--space-sm);
+    font-size: var(--font-size-xs);
+  }
+}
+
+@media (max-width: 480px) {
+  .features {
+    padding: var(--space-xl) 0;
+  }
+  
+  .featureCard {
+    padding: var(--space-md);
+  }
+  
+  .cardActions {
+    flex-direction: column;
+  }
+  
+  .addToServerButton,
+  .docsButton {
+    width: 100%;
+  }
+}
+
+/* Animation for cards */
+.featureCard {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.featureCard:nth-child(1) { animation-delay: 0.1s; }
+.featureCard:nth-child(2) { animation-delay: 0.2s; }
+.featureCard:nth-child(3) { animation-delay: 0.3s; }
+.featureCard:nth-child(4) { animation-delay: 0.4s; }

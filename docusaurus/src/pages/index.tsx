@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
+import CustomLayout from '@site/src/components/CustomLayout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import LatestBlog from '@site/src/components/LatestBlog';
@@ -10,17 +10,26 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
+    <header className={styles.heroBanner}>
+      {/* floating elements */}
+      <div className={styles.floatingElement}></div>
+      <div className={styles.floatingElement}></div>
+      <div className={styles.floatingElement}></div>
+      
+      <div className={styles.heroContent}>
+        <Heading 
+          as="h1" 
+          className={styles.heroTitle} 
+          data-text={siteConfig.title}
+        >
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="button button--secondary button--lg"
+            className={styles.ctaButton}
             to="/docs/intro">
-            Which app do you want to setup? - 5 min ⏱️
+            🚀 Get Started - 5 min ⏱️
           </Link>
         </div>
       </div>
@@ -31,16 +40,21 @@ function HomepageHeader() {
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout>
+    <CustomLayout>
       <HomepageHeader />
-      <main>
-        <br />
-        <Heading as="h1" className="text--center">These apps are part of EasySystems:</Heading>
-        <HomepageFeatures />
-        <Heading as='h1' className='text--center'>Latest Blog Posts</Heading>
-        <LatestBlog />
-        <br />
+      <main className={styles.mainContent}>
+        <div className="container">
+          <Heading as="h2" className={styles.sectionTitle}>
+            Our Amazing Apps
+          </Heading>
+          <HomepageFeatures />
+          
+          <Heading as="h2" className={styles.sectionTitle}>
+            Latest Updates
+          </Heading>
+          <LatestBlog />
+        </div>
       </main>
-    </Layout>
+    </CustomLayout>
   );
 }

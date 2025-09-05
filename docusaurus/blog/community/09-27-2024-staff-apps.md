@@ -2,11 +2,9 @@
 slug: 09-27-2024-staff-apps
 title: Staff apps are here!!!
 description: We are searching new staff!
-authors:
-  [themelon]
+authors: [themelon]
 tags: [community]
-date: 09-27-2024
----
+date: 2024-09-27
 ---
 ![EasySystems V2 Server Banner](../../static/img/easysystems_v2_banner.png)
 
@@ -29,8 +27,8 @@ At EasySystems...
 - We are committed to creating a **safe** and **welcoming** environment for all members.
 - We believe in **transparency** and **open communication**.
 
-**[Learn more about our team here.](https://docs.easysystems.live/blog/meet-the-team)**  
-**[Learn more about EasySystems here.](https://easysystems.live/)**
+**[Learn more about our team here.](/blogs?post=community\meet-the-team)**  
+**[Learn more about EasySystems here.](https://easysystems.dev/)**
 ## Open Positions
 We are currently looking to fill the following staff positions:
 - **CX Support & Moderation**

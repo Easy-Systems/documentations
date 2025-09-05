@@ -3,24 +3,24 @@ themelon:
   title: Developer, Manager at EasySystems
   description: 'Just a melon that codes.'
   page: true
-  image_url: https://docs.easysystems.live/img/melon.png
+  image_url: https://docs.easysystems.dev/img/melon.png
   socials:
     github: themelone2
     website: https://themelon.live
-    email: mailto:legal@easysystems.live
+    email: mailto:legal@easysystems.dev
 
 easythreads:
   name: EasyThreads
   title: I think you know me...
   page: true
   url: https://canary.discord.com/oauth2/authorize?client_id=992796487048233000
-  image_url: https://docs.easysystems.live/img/brand/easythreads_logo.png
+  image_url: https://docs.easysystems.dev/img/brand/easythreads_logo.png
 
 team:
   name: EasySystems Team
   title: The team behind EasySystems
   description: 'A group of talented individuals working together to make EasySystems the best it can be'
-  image_url: https://docs.easysystems.live/img/brand/easysystems_logo.png
+  image_url: https://docs.easysystems.dev/img/brand/easysystems_logo.png
   page: true
 
 spacedev:

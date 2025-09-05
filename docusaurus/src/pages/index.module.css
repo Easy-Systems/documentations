@@ -1,23 +1,288 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
+  background: var(--bg-primary);
+  padding: var(--space-2xl) 0;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(55, 232, 238, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(80, 80, 230, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(141, 154, 255, 0.05) 0%, transparent 50%);
+  animation: backgroundShift 10s ease-in-out infinite;
+}
+
+.heroBanner::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  background: var(--primary-gradient);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(100px);
+  opacity: 0.1;
+  animation: float 6s ease-in-out infinite;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.heroTitle {
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 900;
+  margin-bottom: var(--space-lg);
+  background: var(--secondary-gradient);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 3s ease-in-out infinite;
+  position: relative;
+  line-height: 1.1;
+}
+
+.heroTitle::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--secondary-gradient);
+  background-size: 200% 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: blur(20px);
+  opacity: 0.5;
+  z-index: -1;
+  animation: gradientShift 3s ease-in-out infinite reverse;
+}
+
+.heroSubtitle {
+  font-size: clamp(1.25rem, 4vw, 2rem);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-xl);
+  font-weight: 400;
+  line-height: 1.4;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
 .buttons {
   display: flex;
-  align-items: center;
+  gap: var(--space-md);
   justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.ctaButton {
+  position: relative;
+  padding: var(--space-md) var(--space-xl);
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: var(--border-radius-xl);
+  background: var(--primary-gradient);
+  color: var(--text-inverse);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.ctaButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left var(--transition-slow);
+}
+
+.ctaButton:hover::before {
+  left: 100%;
+}
+
+.ctaButton:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: var(--shadow-lg), 0 0 30px rgba(55, 232, 238, 0.4);
+}
+
+.ctaButton:active {
+  transform: translateY(-2px) scale(1.01);
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin: var(--space-2xl) 0 var(--space-xl) 0;
+  background: var(--primary-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: var(--primary-gradient);
+  border-radius: 2px;
+}
+
+.mainContent {
+  position: relative;
+  z-index: 1;
+  background: var(--bg-primary);
+}
+
+.mainContent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: linear-gradient(to bottom, var(--bg-primary), transparent);
+  pointer-events: none;
+}
+
+/* floating elements */
+.floatingElement {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: var(--primary);
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: float 4s ease-in-out infinite;
+}
+
+.floatingElement:nth-child(1) {
+  top: 20%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.floatingElement:nth-child(2) {
+  top: 60%;
+  right: 15%;
+  animation-delay: 1s;
+}
+
+.floatingElement:nth-child(3) {
+  bottom: 30%;
+  left: 20%;
+  animation-delay: 2s;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    min-height: 80vh;
+    padding: var(--space-xl) 0;
+  }
+  
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ctaButton {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .floatingElement {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heroBanner {
+    min-height: 70vh;
+    padding: var(--space-lg) 0;
+  }
+  
+  .heroContent {
+    padding: 0 var(--space-sm);
+  }
+  
+  .ctaButton {
+    padding: var(--space-sm) var(--space-lg);
+    font-size: var(--font-size-base);
+  }
+}
+
+/* Animations */
+@keyframes backgroundShift {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  33% {
+    transform: translate(-10px, -10px) rotate(1deg);
+  }
+  66% {
+    transform: translate(10px, 5px) rotate(-1deg);
+  }
+}
+
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
