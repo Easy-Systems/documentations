@@ -18,21 +18,27 @@
 
 .postsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: var(--space-lg);
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: var(--space-2xl);
   position: relative;
   z-index: 1;
+  padding: var(--space-lg) 0;
 }
 
 .postCard {
   position: relative;
   background: var(--bg-card);
   border-radius: var(--border-radius-xl);
-  padding: var(--space-lg);
+  padding: var(--space-xl);
   border: 1px solid var(--border-color);
   transition: all var(--transition-normal);
   overflow: hidden;
   cursor: pointer;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .postCard::before {
@@ -52,15 +58,18 @@
 }
 
 .postCard:hover {
-  transform: translateY(-6px);
-  box-shadow: var(--shadow-lg), 0 0 30px rgba(55, 232, 238, 0.1);
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15), 0 0 60px rgba(55, 232, 238, 0.12);
+  border-color: rgba(55, 232, 238, 0.3);
 }
 
 .postHeader {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-xl);
+  flex-wrap: wrap;
+  gap: var(--space-md);
 }
 
 .postMeta {
@@ -76,10 +85,12 @@
   gap: var(--space-xs);
   font-size: var(--font-size-xs);
   color: var(--text-muted);
-  padding: var(--space-xs) var(--space-sm);
-  background: var(--bg-tertiary);
-  border-radius: var(--border-radius);
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
   font-weight: 500;
+  backdrop-filter: blur(10px);
 }
 
 .metaIcon {
@@ -89,22 +100,51 @@
 }
 
 .newBadge {
-  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%);
-  border-radius: var(--border-radius);
-  padding: var(--space-xs) var(--space-sm);
-  box-shadow: var(--shadow-sm);
+  position: relative;
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 50%, #ff6b6b 100%);
+  border-radius: 20px;
+  padding: 4px 12px;
+  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+  animation: pulse 2s ease-in-out infinite;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.newBadge::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  background: linear-gradient(135deg, #ff6b6b, #ff8e53, #ff6b6b);
+  border-radius: 20px;
+  z-index: -1;
+  opacity: 0.6;
+  filter: blur(4px);
 }
 
 .newBadgeText {
   color: white;
-  font-size: var(--font-size-xs);
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
+@keyframes pulse {
+  0%, 100% { 
+    transform: scale(1);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+  }
+  50% { 
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(255, 107, 107, 0.6);
+  }
+}
+
 .postContent {
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-xl);
+  flex-grow: 1;
 }
 
 .postTitle {
@@ -138,26 +178,32 @@
 .postFooter {
   display: flex;
   justify-content: flex-end;
+  margin-top: auto;
+  min-height: 50px;
+  align-items: flex-end;
 }
 
 .readMoreButton {
   display: flex;
   align-items: center;
   gap: var(--space-xs);
-  padding: var(--space-xs) var(--space-md);
-  border-radius: var(--border-radius);
+  padding: 10px 20px;
+  border-radius: 25px;
   font-size: var(--font-size-sm);
   font-weight: 600;
   color: var(--primary);
   text-decoration: none;
   transition: all var(--transition-normal);
-  border: 2px solid transparent;
+  border: 2px solid var(--primary);
+  background: rgba(55, 232, 238, 0.1);
+  backdrop-filter: blur(10px);
 }
 
 .readMoreButton:hover {
   background: var(--primary);
   color: var(--text-inverse);
-  transform: translateX(4px);
+  transform: translateX(6px) translateY(-2px);
+  box-shadow: 0 8px 20px rgba(55, 232, 238, 0.3);
 }
 
 .buttonIcon {

@@ -24,13 +24,14 @@ const LatestBlog: React.FC = () => {
       try {
         setLoading(true);
         
-        // Get posts from global data (plugin)
-        const blogPosts = (globalData as any).blogPosts as Post[];
+        // Get posts from global data /via plugin
+        const pluginData = (globalData as any)['blog-rss-plugin']?.default;
+        const blogPosts = (pluginData?.blogPosts || []) as Post[];
         if (blogPosts && Array.isArray(blogPosts) && blogPosts.length > 0) {
           // Take the latest 3 posts
           setPosts(blogPosts.slice(0, 3));
         } else {
-          // Fallback to empty array
+          // Fallback: empty array
           setPosts([]);
         }
       } catch (error) {
