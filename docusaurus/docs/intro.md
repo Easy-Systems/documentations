@@ -39,4 +39,4 @@ Yes, you can! We are always looking for new contributors to help us improve our 
 
 ## Contact Us:
 - [Support Server](https://ezsys.link/support)
-- [Legal Email](mailto:legal@easysystems.live)
+- [Legal Email](mailto:legal@easysystems.dev)

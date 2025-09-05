@@ -7,7 +7,7 @@ const config: Config = {
   tagline: 'Discord Apps made with love.',
   favicon: 'img/favicon.ico',
 
-  url: 'https://easysystems.live',
+  url: 'https://easysystems.dev',
   baseUrl: '/',
 
   onBrokenLinks: 'warn',
@@ -70,10 +70,10 @@ const config: Config = {
         {
           title: 'Legal',
           items: [
-            { label: 'Legal Center', href: 'https://easysystems.live/legal' },
-            { label: 'Privacy Policy', href: 'https://easysystems.live/privacy' },
-            { label: 'Payment ToS', href: 'https://easysystems.live/billingtos' },
-            { label: 'Imprint', href: 'https://easysystems.live/imprint' },
+            { label: 'Legal Center', href: 'https://easysystems.dev/legal' },
+            { label: 'Privacy Policy', href: 'https://easysystems.dev/privacy' },
+            { label: 'Payment ToS', href: 'https://easysystems.dev/billingtos' },
+            { label: 'Imprint', href: 'https://easysystems.dev/imprint' },
           ],
         },
       ],

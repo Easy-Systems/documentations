@@ -1,6 +1,6 @@
 ﻿# Contributing to the EasySystems Documentation
 
-[EasySystems](https://easysystems.live) is a german Company that creates various Discord Apps (formerly known as "Bots"). 
+[EasySystems](https://easysystems.dev) is a german Company that creates various Discord Apps (formerly known as "Bots"). 
 We currently have only one open source project and that's our documentation!! If you're interested in contributing to the EasySystems Documentation, hopefully, this document makes the process for contributing clear.
 
 The [Open Source Guides](https://opensource.guide/) website has a collection of resources for individuals, communities, and companies who want to learn how to run and contribute to an open source project. Contributors and people new to open source alike will find the following guides especially useful:
@@ -16,7 +16,7 @@ EasySystems has adopted a Code of Conduct that we expect project participants to
 
 There are many ways to contribute to the EasySystems App Documentation, and many of them do not involve writing any code. Here's a few ideas to get started:
 
-- Simply start reading the documentation. Go through the [documentation](https://docs.easysystems.live). Does everything work as expected? Do you think something could be confusing?
+- Simply start reading the documentation. Go through the [documentation](https://docs.easysystems.dev). Does everything work as expected? Do you think something could be confusing?
  If not, we're always looking for improvements. Let us know by [opening an issue](#issues).
 - Look through the [open issues](https://github.com/Easy-Systems/documentations/issues). Provide workarounds, ask for clarification, or suggest labels. Help [triage issues](#triaging-issues-and-pull-requests).
 - If you find an issue you would like to fix, [open a pull request](#pull-requests). Issues tagged as [_Good first issue_](https://github.com/Easy-Systems/documentations/labels/Good%20first%20issue) are a good place to get started.
@@ -106,7 +106,7 @@ You can try using the new [github.dev](https://github.dev/Easy-Systems/documenta
 2. Enable [Yarn](https://yarnpkg.com/)
 	- It should be simple run `corepack enable` but in some cases you need to run `npm install -g corepack` as an administrator first.
 	
-3. Download the repository [Download ZIP](https://docs.easysystems.live/docs/opensource#step-12-optional-clone-the-repository) or clone the repository with [GitHub Desktop](https://github.com/apps/desktop)
+3. Download the repository [Download ZIP](https://docs.easysystems.dev/docs/opensource#step-12-optional-clone-the-repository) or clone the repository with [GitHub Desktop](https://github.com/apps/desktop)
 
 4. After downloading/cloning the repository, run `yarn install` in the root(path_to\docusaurus) of the repository. 
 	- This will install all dependencies as well as build all local packages.
@@ -189,8 +189,8 @@ feat(core): allow overriding of webpack config
 **Currently we aren't using any versions!**
 > If you only want to make doc changes, you just need to be aware of versioned docs.
 > 
-> - `website/docs` - The files here are responsible for the "next" version at https://docs.easysystems.live/next/installation.
-> - `website/versioned_docs/version-X.Y.Z` - These are the docs for the X.Y.Z version at https://docs.easysystems.live/X.Y.Z/installation.
+> - `website/docs` - The files here are responsible for the "next" version at https://docs.easysystems.dev/next/installation.
+> - `website/versioned_docs/version-X.Y.Z` - These are the docs for the X.Y.Z version at https://docs.easysystems.dev/X.Y.Z/installation.
 
 **BE AWARE...**
 Do not edit the auto-generated files within `versioned_docs/` or `versioned_sidebars/` unless you are sure it is necessary. For example, information about new features should not be documented in versioned docs. Edits made to older versions will not be propagated to newer versions of the docs.

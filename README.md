@@ -4,4 +4,4 @@ We use Docusaurus for our Documentation as it's a fast react based documentation
 
 View our [Contribution Guide!](https://github.com/Easy-Systems/documentations/blob/main/CONTRIBUTING.md)
 
-Check out our tutorial: ["How to contribute to EasySystems"](https://docs.easysystems.live/docs/opensource#how-to-contribute)
+Check out our tutorial: ["How to contribute to EasySystems"](https://docs.easysystems.dev/docs/opensource#how-to-contribute)
