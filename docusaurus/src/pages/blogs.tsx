@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CustomLayout from '@site/src/components/CustomLayout';
+import Head from '@docusaurus/Head';
 import Heading from '@theme/Heading';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -19,10 +20,13 @@ export type BlogPost = {
   pubDate: string;
   category: string;
   author?: string;
+  authorAvatar?: string;
+  authorTitle?: string;
   readingTime?: string;
   slug?: string;
   tags?: string[];
   content?: string;
+  coverImage?: string;
 };
 
 const BlogPage: React.FC = () => {
@@ -40,8 +44,9 @@ const BlogPage: React.FC = () => {
       try {
         setLoading(true);
         
-        // Get posts from global data (plugin)
-        const blogPosts = (globalData as any).blogPosts as BlogPost[];
+        // Get posts from global data provided by the custom plugin namespace
+        const pluginData = (globalData as any)['blog-rss-plugin']?.default;
+        const blogPosts = (pluginData?.blogPosts || []) as BlogPost[];
         
         if (blogPosts && Array.isArray(blogPosts) && blogPosts.length > 0) {
           setPosts(blogPosts);
@@ -86,6 +91,17 @@ const BlogPage: React.FC = () => {
   if (selectedPost) {
     return (
       <CustomLayout>
+        <Head>
+          <title>{`${selectedPost.title} | ${siteConfig.title}`}</title>
+          <meta name="description" content={selectedPost.description} />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content={selectedPost.title} />
+          <meta property="og:description" content={selectedPost.description} />
+          <meta property="og:url" content={`${siteConfig.url}/blogs?post=${selectedPost.slug || ''}`} />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content={selectedPost.title} />
+          <meta name="twitter:description" content={selectedPost.description} />
+        </Head>
         <div className={styles.blogPage}>
           <div className="container">
             <div className={styles.postView}>
@@ -124,6 +140,13 @@ const BlogPage: React.FC = () => {
                     >
                       {selectedPost.category}
                     </span>
+                    {Array.isArray(selectedPost.tags) && selectedPost.tags.length > 0 && (
+                      <div className={styles.tagList}>
+                        {selectedPost.tags.map((tag) => (
+                          <span key={tag} className={styles.tagItem}>#{tag}</span>
+                        ))}
+                      </div>
+                    )}
                     {isNewPost(selectedPost.pubDate) && (
                       <span className={styles.newBadge}>
                         🔥 New
@@ -136,6 +159,12 @@ const BlogPage: React.FC = () => {
                   <h1 className={styles.postTitle}>{selectedPost.title}</h1>
                   <p className={styles.postDescription}>{selectedPost.description}</p>
                   
+                  {selectedPost.coverImage && (
+                    <div className={styles.coverImageWrapper}>
+                      <img src={selectedPost.coverImage} alt={selectedPost.title} className={styles.coverImage} />
+                    </div>
+                  )}
+
                   <div className={styles.postBody}>
                     {selectedPost.content ? (
                       <div dangerouslySetInnerHTML={{ __html: selectedPost.content }} />
@@ -148,6 +177,36 @@ const BlogPage: React.FC = () => {
                 <footer className={styles.postFooter}>
                   <div className={styles.authorInfo}>
                     <span className={styles.authorName}>{selectedPost.author}</span>
+                  </div>
+                  <div className={styles.shareButtons}>
+                    <a
+                      className={styles.shareButton}
+                      href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(selectedPost.title)}&url=${encodeURIComponent(siteConfig.url + '/blogs?post=' + (selectedPost.slug || ''))}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Share on Twitter"
+                    >
+                      <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.24 4.24 0 0 0 1.86-2.34 8.49 8.49 0 0 1-2.69 1.03 4.23 4.23 0 0 0-7.2 3.86A12 12 0 0 1 3.15 4.6a4.22 4.22 0 0 0 1.31 5.64 4.2 4.2 0 0 1-1.92-.53v.05a4.24 4.24 0 0 0 3.39 4.15 4.25 4.25 0 0 1-1.91.07 4.23 4.23 0 0 0 3.95 2.94A8.49 8.49 0 0 1 2 19.54a12 12 0 0 0 6.49 1.9c7.79 0 12.06-6.45 12.06-12.05 0-.18-.01-.35-.02-.53A8.62 8.62 0 0 0 22.46 6z"/></svg>
+                      <span>Share</span>
+                    </a>
+                    <a
+                      className={styles.shareButton}
+                      href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(siteConfig.url + '/blogs?post=' + (selectedPost.slug || ''))}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Share on LinkedIn"
+                    >
+                      <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7 0h3.83v2.18h.05c.53-1 1.84-2.18 3.79-2.18 4.05 0 4.8 2.67 4.8 6.14V24h-4v-7.16c0-1.7-.03-3.88-2.37-3.88-2.37 0-2.73 1.85-2.73 3.76V24h-4V8z"/></svg>
+                      <span>Share</span>
+                    </a>
+                    <button
+                      className={styles.shareButton}
+                      onClick={() => navigator.clipboard.writeText(`${siteConfig.url}/blogs?post=${selectedPost.slug || ''}`)}
+                      aria-label="Copy link"
+                    >
+                      <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M3.9 12a5 5 0 0 1 5-5h3v2h-3a3 3 0 0 0 0 6h3v2h-3a5 5 0 0 1-5-5zm7-3h3a5 5 0 0 1 0 10h-3v-2h3a3 3 0 0 0 0-6h-3V9z"/></svg>
+                      <span>Copy</span>
+                    </button>
                   </div>
                 </footer>
               </article>
@@ -188,7 +247,7 @@ const BlogPage: React.FC = () => {
                 </svg>
                 <input
                   type="text"
-                  placeholder="Search posts..."
+                  placeholder="Search posts... e.g. 'Staff applications'"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className={styles.searchInput}
@@ -223,6 +282,11 @@ const BlogPage: React.FC = () => {
               <div className={styles.postsGrid}>
                 {filteredPosts.map((post, index) => (
                   <article key={index} className={styles.blogCard}>
+                    {post.coverImage && (
+                      <div className={styles.cardCover}>
+                        <img src={post.coverImage} alt={post.title} />
+                      </div>
+                    )}
                     <div className={styles.cardHeader}>
                       <div className={styles.postMeta}>
                         <span className={styles.postDate}>
@@ -268,6 +332,9 @@ const BlogPage: React.FC = () => {
 
                     <div className={styles.cardFooter}>
                       <div className={styles.authorInfo}>
+                        {post.authorAvatar && (
+                          <img className={styles.authorAvatar} src={post.authorAvatar} alt={post.author || 'Author'} />
+                        )}
                         <span className={styles.authorName}>{post.author}</span>
                       </div>
                       <Link to={`/blogs?post=${post.slug || post.link.replace('/blog/', '')}`} className={styles.readMoreButton}>
