@@ -35,6 +35,10 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/favicon.ico',
+    navbar: {
+      hideOnScroll: true,
+      style: 'dark',
+    },
     footer: {
       style: 'dark',
       links: [
@@ -93,6 +97,7 @@ const config: Config = {
     docs: {
       sidebar: {
         hideable: true,
+        autoCollapseCategories: true,
       },
     },
   } satisfies Preset.ThemeConfig,
